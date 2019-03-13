@@ -1,0 +1,61 @@
+.content {
+    width: 100vw;
+    height: 600px;
+   
+    margin-top: 150px;
+    margin-bottom: 120px;
+}
+
+.content .foto1 {
+    position: absolute;
+    left: 50%;
+}
+
+.box {
+    width: 90%;
+    display: flex;
+}
+.content h1{
+        position: relative;
+    top: 30%;
+    left: 10%;
+      font-family: BodoniSvtyTwoITCTT;
+  font-size: 60px;
+  font-weight: bold;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: normal;
+color: #000000;
+}
+.content span {
+   color: #f2559d; 
+}
+
+.content a{
+        position: relative;
+    top: 40%;
+    left: 10%;
+      font-family: BodoniSvtyTwoITCTT;
+  font-size: 28px;
+  font-weight: 500;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: normal;
+ color: #000000;
+    text-transform: lowercase; 
+    text-decoration: none;
+    display: block;
+    
+}
+.content a:hover {
+    text-decoration: line-through;
+}
+
+.arrow {
+	    position: relative;
+    top: 155px;
+    left: 0;
+   
+}

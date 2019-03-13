@@ -1,0 +1,115 @@
+main {
+    margin-top: 150px;
+    text-align: -webkit-center;
+}
+
+main span {
+    color: #f2559d;
+}
+
+h1 {
+    font-family: BodoniSvtyTwoITCTT;
+    font-size: 60px;
+    font-weight: bold;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: 2px;
+    color: #000000;
+    text-transform: lowercase;
+}
+
+.text p {
+    font-family: Butler;
+    font-size: 25px;
+    font-weight: 500;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.8;
+    letter-spacing: 1px;
+    text-align: center;
+    color: #000000;
+}
+
+.text {
+    margin-bottom: 150px;
+}
+
+.arrow {
+    
+    position: relative;
+   
+}
+
+#gallery img {
+    width: 100%;
+    object-fit: cover;
+    display: block;
+}
+ 
+ .foto1 {
+	width: 400px;
+  height: 600px;
+     padding-top: 100px;
+       
+}
+ 
+.foto2 {
+	width: 400px;
+  height: 600px;
+    
+}
+.foto3 {
+	width: 496px;
+  height: 440px;
+    margin-top: 100px;
+     ;
+}
+.foto4 {
+	width: 400px;
+  height: 600px;
+     
+    margin-left: 300px;
+ 
+}
+
+.foto5 {
+	width: 400px;
+  height: 600px;
+    padding-top: 100px;
+    
+}
+.foto6 {
+	width: 488px;
+    height: 400px;
+    /* padding-top: 77px; */
+    
+    margin-top: 79px;
+}
+
+
+}
+
+
+
+#know_us {
+	padding-top: 150px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

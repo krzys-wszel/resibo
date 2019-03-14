@@ -18,7 +18,9 @@ h1 {
     color: #000000;
     text-transform: lowercase;
 }
-
+#foto img {
+width: 33.3%;
+}
 .text p {
     font-family: Butler;
     font-size: 25px;

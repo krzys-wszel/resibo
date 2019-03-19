@@ -1,0 +1,386 @@
+main {
+    margin-top: 150px;
+    text-align: -webkit-center;
+}
+
+main span {
+    color: #f2559d;
+}
+
+h1 {
+    font-family: BodoniSvtyTwoITCTT;
+    font-size: 60px;
+    font-weight: bold;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: 2px;
+    color: #000000;
+    text-transform: lowercase;
+}
+
+.text p {
+    font-family: Butler;
+    font-size: 25px;
+    font-weight: 500;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.8;
+    letter-spacing: 1px;
+    text-align: center;
+    color: #000000;
+}
+
+.text {
+    margin-bottom: 150px;
+}
+
+.arrow {
+    left: -285px;
+    position: relative;
+    top: -63px;
+}
+
+.image {
+    height: 600px;
+}
+
+.image img {
+    width: 100%;
+    height: 600px;
+}
+
+.oval {
+    margin: 30px;
+    margin-top: 150px;
+}
+
+/*****************************/
+.a_img_1 {
+  width: 682px;
+  height: 450px;
+  background-color: #f5f6fa;
+}
+.a_img_1 img {
+    width: 90%;
+    position: absolute;
+    left: 0;
+}
+.a_img_2 img {
+    width: 90%;
+    position: absolute;
+    right: -100px;
+}
+.a_img_3 img {
+    width: 90%;
+    position: absolute;
+   left: 0;
+    top: 60px;
+}
+.a_img_4 img {
+    width: 90%;
+    position: absolute;
+    padding-right: 50px;
+    
+}
+.a_img_5 img {
+    width: 100%;
+    position: absolute;
+    left: 0;
+    
+}
+.a_img_1 p {
+    font-family: Futura;
+    font-size: 15px;
+    font-weight: 900;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: 0.4px;
+    color: #000000;
+    position: relative;
+    top: 101%;
+    left: -30%;
+
+}
+
+.a_text_1 h1 {
+    font-family: Futura;
+    font-size: 25px;
+    font-weight: 900;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: 0.7px;
+    color: #000000;
+    
+}
+.a_text_1 p {
+	 font-family: FuturaPT;
+  font-size: 15px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: 0.4px;
+  color: #000000;
+}
+
+.a_text_1 {
+    text-align: -webkit-left;
+    padding-left: 50px;
+    position: relative;
+    top: 50%;
+}
+/************************************/
+
+
+
+.a_img_2 {
+   width: 545px;
+  height: 450px;
+  background-color: #f4eae9;
+}
+
+
+.a_img_2 p {
+    font-family: Futura;
+    font-size: 15px;
+    font-weight: 900;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: 0.4px;
+    color: #000000;
+    position: relative;
+    top: 101%;
+    left: -30%;
+
+}
+
+.a_text_2 h1 {
+    font-family: Futura;
+    font-size: 25px;
+    font-weight: 900;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: 0.7px;
+    color: #000000;
+     
+}
+.a_text_2 p {
+	 font-family: FuturaPT;
+  font-size: 15px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: 0.4px;
+  color: #000000;
+}
+
+.a_text_2 {
+    text-align: -webkit-left;
+  left: 50%;
+    position: relative;
+    top: 50%;
+}
+
+
+/************************************/
+
+
+
+.a_img_3 {
+width: 458px;
+  height: 450px;
+  background-color: #e9f3f5;
+}
+
+
+.a_img_3 p {
+    font-family: Futura;
+    font-size: 15px;
+    font-weight: 900;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: 0.4px;
+    color: #000000;
+    position: relative;
+    top: 101%;
+    left: -25%;
+
+}
+
+.a_text_3 h1 {
+    font-family: Futura;
+    font-size: 25px;
+    font-weight: 900;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: 0.7px;
+    color: #000000;
+     
+}
+.a_text_3 p {
+	 font-family: FuturaPT;
+  font-size: 15px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: 0.4px;
+  color: #000000;
+}
+
+.a_text_3{
+    text-align: -webkit-left;
+     position: relative;
+    top: 175px;
+}
+
+
+/************************************/
+
+
+
+.a_img_4 {
+  width: 710px;
+  height: 450px;
+  background-color: #dde1e7;
+}
+
+
+.a_img_4 p {
+    font-family: Futura;
+    font-size: 15px;
+    font-weight: 900;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: 0.4px;
+    color: #000000;
+    position: relative;
+    top: 101%;
+    left: -25%;
+
+}
+
+.a_text_4 h1 {
+    font-family: Futura;
+    font-size: 25px;
+    font-weight: 900;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: 0.7px;
+    color: #000000;
+     
+}
+.a_text_4 p {
+	 font-family: FuturaPT;
+  font-size: 15px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: 0.4px;
+  color: #000000;
+}
+
+.a_text_4 {
+    text-align: -webkit-left;
+     position: relative;
+    top: 175px;
+    left: 50%;
+}
+
+
+/************************************/
+
+
+
+.a_img_5 {
+  width: 567px;
+  height: 450px;
+  background-color: #f9f9f9;
+}
+
+
+.a_img_5 p {
+    font-family: Futura;
+    font-size: 15px;
+    font-weight: 900;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: 0.4px;
+    color: #000000;
+    position: relative;
+    top: 101%;
+    left: -25%;
+
+}
+
+.a_text_5 h1 {
+    font-family: Futura;
+    font-size: 25px;
+    font-weight: 900;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: 0.7px;
+    color: #000000;
+     
+}
+.a_text_5 p {
+	 font-family: FuturaPT;
+  font-size: 15px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: 0.4px;
+  color: #000000;
+}
+
+.a_text_5 {
+    text-align: -webkit-left;
+     position: relative;
+    top: 175px;
+    left: 50%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

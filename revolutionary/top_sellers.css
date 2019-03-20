@@ -1,0 +1,158 @@
+main {
+    margin-top: 150px;
+    text-align: -webkit-center;
+}
+
+main h1 span {
+    color: #f2559d;
+}
+
+h1 {
+    font-family: BodoniSvtyTwoITCTT;
+    font-size: 60px;
+    font-weight: bold;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: 2px;
+    color: #000000;
+    text-transform: lowercase;
+}
+#foto img {
+max-height: 689px;
+    height: auto;
+    margin: 150px auto;
+}
+ 
+.arrow {
+      /* left: -40%; */
+    /* top: 49%; */
+    position: absolute;
+    left: 18%;
+    top: 84%;
+}
+   
+ 
+ 
+
+#know_us {
+	padding-top: 340px;
+}
+
+ 
+#fotos .row {
+        justify-content: center;
+}
+
+#fotos h1 {
+    font-family: FuturaMed;
+  font-size: 25px;
+  font-weight: 500;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: 0.7px;
+  color: #000000;
+    text-align: -webkit-left;
+    text-transform: none;
+}
+#fotos p {
+     font-family: FuturaPT;
+  font-size: 15px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.67;
+  letter-spacing: 0.4px;
+  color: #000000;
+    text-align: -webkit-left;
+     
+  height: 300px;
+}
+
+
+
+#fotos .col-sm-6 {
+    max-width: 350px;
+    margin: 0px 50px;
+}
+
+@media only screen and (max-width: 977px){
+    #fotos .col-sm-6{
+        margin: 0px 0px;
+    }
+}
+
+
+
+.foto1{
+      width: 350px;
+  height: 370px;
+  background-color: #f5f6fa;
+}
+.foto1 img {
+	object-fit: cover;
+      margin: 50px auto 70px auto;
+   width: 270px;
+  height: 270px;
+    
+}
+ 
+.foto2{
+    width: 350px;
+  height: 320px;
+  background-color: #f5f6fa;
+}
+.foto2 img {
+object-fit: cover;
+      margin: -35px auto 46px auto;
+    height: 320px;
+}
+.foto3 {
+    width: 350px;
+  height: 320px;
+  background-color: #f5f6fa;
+    margin-top: 250px;
+}
+.foto3 img {
+object-fit: cover;
+   margin: 0px auto 30px auto;
+    height: 320px;
+}
+.foto4 {
+      width: 350px;
+  height: 370px;
+  background-color: #f5f6fa;
+    margin-top: 202px;
+}
+ .foto4 img {
+	object-fit: cover;
+    margin: 11px auto 30px auto;
+    height: 370px;    
+}
+ 
+#fotos h2 {
+    font-family: FuturaPT;
+  font-size: 12px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 2.75;
+  letter-spacing: 0.2px;
+  text-align: justify;
+  color: #000000;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

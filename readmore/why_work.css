@@ -139,10 +139,18 @@ object-fit: cover;
  .foto4 img {
 	object-fit: cover;
     margin: 11px auto 30px auto;
-    height: 370px;
-    
+    height: 370px;    
 }
-
+.foto5 img {
+object-fit: cover;
+   margin: 60px auto 30px auto;
+    height: 370px;
+}
+ .foto6 img {
+	object-fit: cover;
+    margin: 60px auto 30px auto;
+    height: 320px;    
+}
 
 
 

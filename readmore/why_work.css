@@ -106,6 +106,13 @@ h3 {
 
 #fotos .col-sm-6 {
     max-width: 350px;
+    margin: 0px 50px;
+}
+
+@media only screen and (max-width: 977px){
+    #fotos .col-sm-6{
+        margin: 0px 0px;
+    }
 }
 
 

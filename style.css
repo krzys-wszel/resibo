@@ -1,36 +1,36 @@
  @font-face {
       font-family: BodoniBold;
-      src: url(/font/Bodoni SvtyTwo ITC TT Bold.otf);
+      src: url(font/Bodoni SvtyTwo ITC TT Bold.otf);
   }
 @font-face {
       font-family: Butler;
-      src: url(/font/ButlerRegular.otf);
+      src: url(font/ButlerRegular.otf);
   }
 @font-face {
       font-family: ButlerMed;
-      src: url(/font/ButlerMedium.otf);
+      src: url(font/ButlerMedium.otf);
   }
 
   
 
   @font-face {
       font-family: AvenirMed;
-      src: url(/font/AvenirMedium.ttf);
+      src: url(font/AvenirMedium.ttf);
   }
 /************
 FUTURA
 ----------------*/
 @font-face {
       font-family: FuturaMed;
-      src: url(/font/FuturaMedium.otf);
+      src: url(font/FuturaMedium.otf);
   }
 @font-face {
       font-family: FuturaPT;
-      src: url(/font/FuturaPTBook.otf);
+      src: url(font/FuturaPTBook.otf);
   }
 @font-face {
       font-family: Futura;
-      src: url(/font/futura bold font.ttf);
+      src: url(font/futura bold font.ttf);
   }
 
 

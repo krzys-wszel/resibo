@@ -1,0 +1,206 @@
+body {
+    width: 100%;
+}
+.content {
+    width: 100%;
+    height: 600px;
+   /* background: url(img/re1.jpg)no-repeat;*/
+    margin-top: 150px;
+    margin-bottom: 120px;
+    position: relative;
+}
+
+.content .foto1 {
+    position: absolute;
+        object-fit: cover;
+        width: 100%;
+    height: 600px;
+}
+
+.content h1 {
+     font-family: BodoniSvtyTwoITCTT;
+  font-size: 60px;
+  font-weight: bold;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #ffffff;
+    position: absolute;
+    text-transform: lowercase;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50% , -50%);
+} 
+
+.arrow {
+	    /* z-index: 1; */
+    position: absolute;
+    left: 2%;
+    bottom: -30px;
+}
+
+.testimonial{
+    margin-top: 280px;
+    max-width: 450px;
+    height: 537px;
+    text-align: center;
+    padding: 85px 50px 45px 70px;
+    margin: 70px 15px 35px;
+    background: #f5f6fa;
+    
+    position: relative;
+}
+.testimonial .pic{
+    width: 213px;
+    height: 319px;
+     
+    margin: 0 auto;
+    position: absolute;
+    top: 25%;
+    left: -25%;
+    
+    
+}
+.testimonial .pic img{
+    width: 100%;
+    height: auto;
+}
+.testimonial .description{
+    width: 250px;
+  height: 160px;
+  font-family: FuturaPT;
+  font-size: 15px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: 0.4px;
+  color: #000000;
+    position: relative;
+        top: 90px;
+    left: 50px;
+    text-align: left
+}
+.testimonial .description:before{
+    content: "\f10e";
+    font-family: "Font-Awesome";
+    font-size: 32px;
+    color: black;
+    position: absolute;
+    top: -110px;
+    left: 7px;
+}
+.testimonial .testimonial-profile{
+    position: relative;
+    margin: 20px 0 10px 0;
+}
+ 
+.testimonial .title{
+    display: inline-block;
+  top: 70px;
+    position: relative;
+  font-family: FuturaMed;
+  font-size: 25px;
+  font-weight: 500;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: 0.7px;
+  text-align: center;
+  color: #000000;
+    
+    margin: 0;
+}
+.testimonial .post{
+    display: inline-block;
+    font-size: 15px;
+    color: #757575;
+    text-transform: capitalize;
+}
+.owl-theme .owl-controls .owl-buttons div {
+    background: url(/img/long_arrow.svg);
+    width: 102px;
+  height: 17px;
+  position: absolute;
+    top: 50%;
+    left: 90%;
+}
+.owl-theme .owl-controls .owl-buttons .owl-prev {
+    display: none
+}
+
+#text {
+    margin-top: 250px
+}
+#text p {
+   font-family: FuturaPT;
+  font-size: 25px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: 0.7px;
+  color: #000000; 
+}
+#text p span {
+    font-family: Futura;
+  font-weight: 500;
+}
+#text .col-md-1 {
+    border-left: 1px solid ;
+}
+#text h1 {
+       position: absolute;
+    top: 65%;
+    left: 30%; 
+  font-size: 18px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: 0.3px;
+  color: #000000;
+}
+#text h1 span {
+    font-weight: 500;
+}
+#text img {
+   width: 170px;
+  height: 43px;
+    position: absolute;
+    top: 50%;
+    left: 30%;
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

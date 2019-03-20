@@ -40,6 +40,7 @@ FUTURA
 
   body {
       font-size: 16px;
+      overflow-x: hidden;
   }
 
   /* Menu */
@@ -259,7 +260,7 @@ HEADER
       width: 422px;
       height: 633px;
       background: url(img/home1.jpg);
-      position: relative;
+     /* position: relative;*/
       top: 50px;
        
       
@@ -563,6 +564,15 @@ padding-top: 150px;
 }
 
 
+
+@media only screen and (max-width: 1400px){
+    .img_3 {
+        left: 0;
+    }
+    .img_4 {
+        left: 50px;
+    }
+}
 
 
 

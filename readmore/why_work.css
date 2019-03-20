@@ -155,12 +155,30 @@ object-fit: cover;
 text-align: right;}
 
 
-
-
-
-
-
-
+.text {
+    text-align: left;
+    margin-top: 100px;
+}
+.text p span {
+    color: #f2559d
+}
+.text p {
+    font-family: FuturaPT;
+  font-size: 15px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: 0.4px;
+  color: #000000;
+}
+.p_line {
+    width: 100px;
+    height: 1px;
+    background: black;
+    position: absolute;
+    margin-top: 190px;
+}
 
 
 

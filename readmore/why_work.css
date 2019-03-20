@@ -1,0 +1,181 @@
+main {
+    margin-top: 150px;
+    text-align: -webkit-center;
+}
+
+main h1 span {
+    color: #f2559d;
+}
+
+h1 {
+    font-family: BodoniSvtyTwoITCTT;
+    font-size: 60px;
+    font-weight: bold;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: 2px;
+    color: #000000;
+    text-transform: lowercase;
+}
+#foto img {
+max-height: 689px;
+    height: auto;
+    margin: 150px auto;
+}
+ 
+.arrow {
+      /* left: -40%; */
+    /* top: 49%; */
+    position: absolute;
+    left: 5%;
+    top: 45%;
+   
+}
+h2 {
+    
+  font-family: FuturaMed;
+  font-size: 25px;
+  font-weight: 500;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: 40px;
+  color: #000000;
+}
+
+
+
+#know_us {
+	padding-top: 125px;
+}
+
+.leaf {
+  
+  width: 169px;
+  height: 155px;
+    background-color: aqua;
+    margin-top: 150px;
+}
+ 
+h3 {
+     max-width: 840px;
+  height: 200px;
+  font-family: FuturaMed;
+  font-size: 25px;
+  font-weight: 500;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 4;
+  letter-spacing: 40px;
+  text-align: center;
+  color: #000000;
+    margin-top: 250px;
+}
+#fotos .row {
+        justify-content: center;
+}
+
+#fotos h1 {
+    font-family: FuturaMed;
+  font-size: 25px;
+  font-weight: 500;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: 0.7px;
+  color: #000000;
+    text-align: -webkit-left;
+    text-transform: none;
+}
+#fotos p {
+     font-family: FuturaPT;
+  font-size: 15px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.67;
+  letter-spacing: 0.4px;
+  color: #000000;
+    text-align: -webkit-left;
+     
+  height: 300px;
+}
+
+
+
+#fotos .col-sm-6 {
+    max-width: 350px;
+}
+
+
+
+ 
+.foto1 img {
+	object-fit: cover;
+    margin: 228px auto 30px auto;
+    height: 370px;
+    
+}
+ 
+.foto2 img {
+object-fit: cover;
+   margin: 228px auto 30px auto;
+    height: 320px;
+}
+
+.foto3 img {
+object-fit: cover;
+   margin: 60px auto 30px auto;
+    height: 320px;
+}
+ .foto4 img {
+	object-fit: cover;
+    margin: 11px auto 30px auto;
+    height: 370px;
+    
+}
+
+
+
+
+
+.love , .friendship , .magic{
+    font-family: FuturaMed;
+  font-size: 25px;
+  font-weight: 500;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 4;
+  letter-spacing: 50px;
+  text-align: left;
+  color: #000000;
+}
+.magic {
+text-align: right;}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

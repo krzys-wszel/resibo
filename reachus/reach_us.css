@@ -1,10 +1,11 @@
 body {
     width: 100%;
 }
+
 .content {
     width: 100%;
     height: 600px;
-   /* background: url(img/re1.jpg)no-repeat;*/
+    /* background: url(img/re1.jpg)no-repeat;*/
     margin-top: 150px;
     margin-bottom: 250px;
     position: relative;
@@ -13,29 +14,59 @@ body {
 .content .foto1 {
     position: absolute;
     object-fit: cover;
-        width: 100%;
+    width: 100%;
     height: 730px;
 }
 
-#box .container-fluid{
-    width: 90%;
-     
+.content a:hover {
+    text-decoration: line-through;
+    color: black;
 }
 
-.content h1 {
+.foto2 {
+    position: absolute;
+    right: 0;
+display: none;
+    top: 4%;
+}
+
+.foto3 {
+     width: 621px;
+  height: 414px;
+    position: absolute;
+    right: 0;
+display: none;
+top: 25%;
+}
+.foto4 {
+     width: 621px;
+  height: 414px;
+    position: absolute;
+    right: 0;
+display: none;
+top: 25%;
+}
+
+#box .container-fluid {
+    width: 90%;
+
+}
+
+.h1 {
     position: relative;
     top: 45%;
     left: 10%;
-     font-family: BodoniSvtyTwoITCTT;
-  font-size: 60px;
-  font-weight: bold;
-  font-style: normal;
-  font-stretch: normal;
-  line-height: normal;
-  letter-spacing: normal;
-  color: #ffffff;
-     
+    font-family: BodoniSvtyTwoITCTT;
+    font-size: 60px;
+    font-weight: bold;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: #ffffff;
+
 }
+
 
 .content span {
     color: #f2559d;
@@ -45,24 +76,24 @@ body {
     position: relative;
     top: 62%;
     left: 10%;
-  width: 500px;
-        text-transform: lowercase;
+    width: 500px;
+    text-transform: lowercase;
     text-decoration: none;
     display: block;
-font-family: FuturaMed;
-  font-size: 20px;
-  font-weight: 500;
-  font-style: normal;
-  font-stretch: normal;
-  line-height: normal;
-  letter-spacing: normal;
-  color: #ffffff;
+    font-family: FuturaMed;
+    font-size: 20px;
+    font-weight: 500;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: #ffffff;
     margin: 25px;
 }
-
-.content a:hover {
-    text-decoration: line-through;
+.black {
+    color: black;
 }
+
 
 .arrow {
     position: relative;

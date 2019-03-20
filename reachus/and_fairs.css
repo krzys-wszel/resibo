@@ -212,3 +212,42 @@ h1 {
     margin-left: auto;
     text-align: -webkit-right;
 }
+@media only screen and (max-width: 900px) {
+    
+    .container-fluid , .container-fluid_1 , .container-fluid_2 , .container-fluid_3 , .container-fluid_4 , .container-fluid_5 , .container-fluid_6 {
+        padding-left: 36px;
+        padding-right: 36px;
+	
+}
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+}

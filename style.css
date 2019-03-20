@@ -259,7 +259,7 @@ HEADER
   .img_1 {
       width: 422px;
       height: 633px;
-      background: url(img/home1.jpg);
+     /* background: url(img/home1.jpg);*/
      /* position: relative;*/
       top: 50px;
        

@@ -591,7 +591,14 @@ padding-top: 150px;
 }
 
 
-
+@media screen and (min-width: 767px) and (max-width: 1217px) {
+    .oval {
+        margin: 35px;
+    }
+    .footer_icon {
+	padding-top: 0px;
+}
+}
 
 
 

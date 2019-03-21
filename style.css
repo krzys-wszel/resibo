@@ -2,6 +2,8 @@
       font-family: BodoniBold;
       src: url(font/Bodoni SvtyTwo ITC TT Bold.otf);
   }
+
+
 @font-face {
       font-family: Butler;
       src: url(font/ButlerRegular.otf);
@@ -12,11 +14,24 @@
   }
 
   
-
+@font-face {
+      font-family: AvenirLight;
+      src: url(font/AvenirLight.ttf);
+  }
   @font-face {
       font-family: AvenirMed;
       src: url(font/AvenirMedium.ttf);
   }
+
+ @font-face {
+      font-family: Poppins;
+      src: url(font/Poppins-SemiBold.ttf);
+  }
+
+
+
+
+
 /************
 FUTURA
 ----------------*/
@@ -97,7 +112,7 @@ FUTURA
 
   .menu a {
       text-shadow: 0 2px 30px rgba(0, 0, 0, 0.5);
-      font-family: 'Poppins', monospace;
+      font-family: Poppins;
       font-size: 80px;
       font-weight: 600;
       font-style: normal;
@@ -169,7 +184,7 @@ FUTURA
       width: 58px;
       height: 17px;
 
-      font-family: 'Poppins', monospace;
+      font-family: Poppins;
       font-size: 12px;
       font-weight: 600;
       font-style: normal;
@@ -179,7 +194,7 @@ FUTURA
       color: #ffffff;
       margin-left: 40px;
       position: relative;
-      top: -62px;
+      top: -73px;
   }
 
   /*----------
@@ -472,6 +487,7 @@ padding-top: 150px;
     top: 39px;
     width: 161px;
     left: -39px;
+    text-transform: uppercase;
 }
 
 
@@ -484,7 +500,7 @@ padding-top: 150px;
   }
 
   #footer h5 {
-      font-family: Avenir;
+      font-family: AvenirMed;
       font-size: 15px;
       font-weight: 500;
       font-style: normal;
@@ -520,7 +536,7 @@ padding-top: 150px;
 
   #footer p {
 
-      font-family: AvenirMed;
+      font-family: AvenirLight;
       font-size: 14px;
       font-weight: 300;
       font-style: normal;

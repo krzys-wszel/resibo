@@ -58,6 +58,10 @@
             <div class="content">
                 <!--  <img class="foto1" src="img/recognize1.png">-->
                 <img class="foto1" src="../img/re1.jpg">
+              
+                    <img class="foto2 img-fluid" src="../img/recognize1.png">
+                    <img class="foto3 img-fluid" src="../img/reach_hover_2.jpg">
+                    <img class="foto4 img-fluid" src="../img/reach_hover_2.jpg">
                 <h1>re<span>.</span>cognize us</h1>
                 <a href="awards.html"> OUR AWARDS </a>
                 <a href="press.html"> PRESS ABOUT US </a>
@@ -178,6 +182,47 @@
             });
         });
 
+    </script>
+     <script>
+        $('.link1').on('mouseenter', function() {
+            $('.foto1').hide();
+            $('.foto2').show();
+            $('.h1').addClass('black');
+        
+
+        })
+        $('.link1').on('mouseleave', function() {
+            $('.foto1').show();
+            $('.foto2').hide();
+            $('.h1').removeClass('black');
+         
+
+        })
+    </script>
+    <script>
+        $('.link2').on('mouseenter', function() {
+            $('.foto1').hide();
+            $('.foto3').show();
+            $('.h1').addClass("black");
+        })
+        $('.link2').on('mouseleave', function() {
+            $('.foto1').show();
+            $('.foto3').hide();
+            $('.h1').removeClass("black");
+        })
+    </script>
+    <script>
+        $('.link3').on('mouseenter', function() {
+            $('.foto1').hide();
+            $('.foto4').show();
+            $('.h1').addClass("black");
+        })
+        $('.link3').on('mouseleave', function() {
+            $('.foto1').show();
+            $('.foto4').hide();
+            $('.h1').removeClass("black");
+
+        })
     </script>
 
 </body>

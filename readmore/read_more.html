@@ -53,21 +53,25 @@
 
 
     <main role="main">
-       <section id="box">
-        <div class="container-fluid">
-            <div class="content">
-                <!--  <img class="foto1" src="img/recognize1.png">-->
-                <img class="foto1" src="../img/home3.jpg">
-                <h1>re<span>.</span>ad more about us</h1>
-                <a href="history.html"> OUR HISTORY</a>
-                <a href="why_work.html"> Why does it work? </a>
-                <a href="why_reisbo.html">WHY RESIBO?</a>
-                <a href="../index.html"> <img class="arrow" src="../img/button_arrow.svg"></a>
+        <section id="box">
+            <div class="container-fluid">
+                <div class="content">
+                    <!--  <img class="foto1" src="img/recognize1.png">-->
+                    <img class="foto1" src="../img/home3.jpg">
+
+                    <img class="foto2 img-fluid" src="../img/recognize1.png">
+                    <img class="foto3 img-fluid" src="../img/reach_hover_2.jpg">
+                    <img class="foto4 img-fluid" src="../img/reach_hover_2.jpg">
+                    <h1>re<span>.</span>ad more about us</h1>
+                    <a href="history.html"> OUR HISTORY</a>
+                    <a href="why_work.html"> Why does it work? </a>
+                    <a href="why_reisbo.html">WHY RESIBO?</a>
+                    <a href="../index.html"> <img class="arrow" src="../img/button_arrow.svg"></a>
+                </div>
+
             </div>
 
-        </div>
-
-</section>
+        </section>
 
         <section id="know_us">
             <div class="container">
@@ -80,7 +84,7 @@
                 <h2>Get to know us! Leave your e-mail address to receive more info from <br><span>#ResiboTeam</span> in the following weeks!</h2>
             </div>
 
-             <div class="container-fluid">
+            <div class="container-fluid">
                 <div class="row">
                     <div class="oval">
                         <img src="../img/GMP.svg">
@@ -102,7 +106,7 @@
                         <img src="../img/HQ.svg">
                         <h1>HQ</h1>
                     </div>
-                    
+
                 </div>
             </div>
         </section>
@@ -114,7 +118,9 @@
                 <div class="row">
                     <div class="col-xl-2">
                         <h5>menu</h5>
-                       <a href="/recognize/re.cognize.html"> <p>re.cognition us</p></a>
+                        <a href="/recognize/re.cognize.html">
+                            <p>re.cognition us</p>
+                        </a>
                         <p>re.garding us</p>
                         <p>re.volution products</p>
                         <p>re.ach us!</p>
@@ -130,8 +136,8 @@
                         <p>contact@resibo.com </p>
                     </div>
                     <div class="col-xl-6 footer_icon">
-                       <a href="https://www.facebook.com/resiboPL/"> <img src="../img/facebbok_black.svg"></a>
-             <a href="https://www.instagram.com/resibobynature/">  <img src="../img/linked.svg"></a> 
+                        <a href="https://www.facebook.com/resiboPL/"> <img src="../img/facebbok_black.svg"></a>
+                        <a href="https://www.instagram.com/resibobynature/"> <img src="../img/linked.svg"></a>
                     </div>
                 </div>
                 <div class="row" style="padding-top: 50px;">
@@ -178,6 +184,47 @@
             });
         });
 
+    </script>
+       <script>
+        $('.link1').on('mouseenter', function() {
+            $('.foto1').hide();
+            $('.foto2').show();
+            $('.h1').addClass('black');
+        
+
+        })
+        $('.link1').on('mouseleave', function() {
+            $('.foto1').show();
+            $('.foto2').hide();
+            $('.h1').removeClass('black');
+         
+
+        })
+    </script>
+    <script>
+        $('.link2').on('mouseenter', function() {
+            $('.foto1').hide();
+            $('.foto3').show();
+            $('.h1').addClass("black");
+        })
+        $('.link2').on('mouseleave', function() {
+            $('.foto1').show();
+            $('.foto3').hide();
+            $('.h1').removeClass("black");
+        })
+    </script>
+    <script>
+        $('.link3').on('mouseenter', function() {
+            $('.foto1').hide();
+            $('.foto4').show();
+            $('.h1').addClass("black");
+        })
+        $('.link3').on('mouseleave', function() {
+            $('.foto1').show();
+            $('.foto4').hide();
+            $('.h1').removeClass("black");
+
+        })
     </script>
 
 </body>

@@ -21,12 +21,35 @@ body {
     width: 90%;
      
 }
+.foto2 {
+    position: absolute;
+    right: 0;
+display: none;
+    top: 4%;
+}
 
-.content h1 {
+.foto3 {
+     width: 621px;
+  height: 414px;
+    position: absolute;
+    right: 0;
+display: none;
+top: 25%;
+}
+.foto4 {
+     width: 621px;
+  height: 414px;
+    position: absolute;
+    right: 0;
+display: none;
+top: 25%;
+}
+ 
+.h1 {
     position: relative;
     top: 30%;
     left: 10%;
-     font-family: BodoniSvtyTwoITCTT;
+     font-family: BodoniBold;
   font-size: 60px;
   font-weight: bold;
   font-style: normal;
@@ -35,6 +58,9 @@ body {
   letter-spacing: normal;
   color: #ffffff;
      
+}
+.black {
+    color: black;
 }
 
 .content span {
@@ -62,12 +88,14 @@ font-family: FuturaMed;
 
 .content a:hover {
     text-decoration: line-through;
+    color: black;
 }
+
 
 .arrow {
     position: relative;
-    top: 90px;
-    left: 0;
+    top: -150px;
+    left: 50px;
 
 }
 .text {
@@ -87,8 +115,7 @@ width: 900px;
   color: #000000;
 }
 
-
-
+ 
 
 
 

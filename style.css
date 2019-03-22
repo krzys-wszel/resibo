@@ -369,7 +369,7 @@ IMG 3 , IMG 4
      height: 438px;
      position: relative;
      margin-top: 123px;
-     left: 230px;
+     left: -170px;
  }
 
  .img_4 {
@@ -589,16 +589,7 @@ KNOW US
 
 
 
- @media only screen and (max-width: 1400px) {
-     .img_3 {
-         left: 0;
-     }
-
-     .img_4 {
-         left: 50px;
-     }
- }
-
+  
 
  @media screen and (min-width: 767px) and (max-width: 1217px) {
      .oval {
@@ -613,6 +604,10 @@ KNOW US
  @media only screen and (max-width: 1200px) {
      .img_3 {
          width: 100%;
+         left: 0px;
+     }
+     .img_3 img {
+         height: 438px;
      }
 
      .img_1 h1 {
@@ -626,6 +621,9 @@ KNOW US
          }
      .img_1 h1 {
          font-size: 30px;
+     }
+     .img_3 img {
+             width: 422px;
      }
 
      .mask {
@@ -669,6 +667,9 @@ KNOW US
          }
          .img_2 img {
              height: 438px;
+         }
+         .img_3 img {
+             width: 100%;
          }
          .img_2 h1 {
             text-align: -webkit-center;

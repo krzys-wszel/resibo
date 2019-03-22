@@ -8,7 +8,7 @@ main h1 span {
 }
 
 h1 {
-    font-family: BodoniSvtyTwoITCTT;
+    font-family: BodoniBold;
     font-size: 60px;
     font-weight: bold;
     font-style: normal;
@@ -23,7 +23,7 @@ width: 33.3%;
 }
 .text p {
     height: 270px;
-    width: 1090px;
+   max-width: 1090px;
     font-family: ButlerMed;
     font-size: 25px;
     font-weight: 500;
@@ -108,7 +108,11 @@ width: 33.3%;
 }
 
 
-
+@media only screen and (max-width: 767px){
+    .text p {
+        font-size: 16px;
+    }
+}
 
 
 

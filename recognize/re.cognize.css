@@ -36,7 +36,9 @@ body {
   color: #ffffff;
      
 }
-
+.foto2 , .foto3 , .foto4 {
+    display: none;
+}
 .content span {
     color: #f2559d;
 }

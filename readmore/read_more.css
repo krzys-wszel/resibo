@@ -40,7 +40,9 @@ body {
 .content span {
     color: #f2559d;
 }
-
+.foto2 , .foto3 , .foto4 {
+    display: none;
+}
 .content a {
     position: relative;
     top: 40%;

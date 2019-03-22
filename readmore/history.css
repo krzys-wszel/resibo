@@ -52,7 +52,7 @@
 #box span {
 color: mediumvioletred}
 #box p{
-    width: 420px;
+    max-width: 420px;
     font-family: FuturaPT;
   font-size: 15px;
   font-weight: normal;
@@ -225,8 +225,41 @@ color: mediumvioletred}
 .h_timeline {
 	text-align: -webkit-center;
 }
-
-
+@media only screen and (max-width: 1200px){
+    #box p {
+        left: 5%;
+        top: 40%;
+    }
+    #box h1 {
+        top: 25%;
+    }
+    .timeline {
+	    top: 200px;
+    position: relative;
+    left: 15%;
+        max-width: 600px;
+}
+    #know_us {
+	margin-top: 200px;
+}
+}
+@media only screen and (max-width: 767px){
+    .text_box {
+        text-align: -webkit-center;
+    }
+    #box p {
+        text-align: left;
+        left: 0;
+        font-size: 12px;
+    }
+    #box h1 {
+        top: 20%;
+    }
+    .entry .body ul {
+        padding-right: 80px;
+        font-size: 13px;
+    }
+}
 
 
 

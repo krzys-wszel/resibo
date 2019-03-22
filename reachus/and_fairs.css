@@ -31,7 +31,7 @@ h1 {
     letter-spacing: 1px;
     text-align: center;
     color: #000000;
-    width: 841px;
+    max-width: 841px;
     height: 180px;
     position: relative;
     top: 100px;
@@ -212,42 +212,60 @@ h1 {
     margin-left: auto;
     text-align: -webkit-right;
 }
+
 @media only screen and (max-width: 900px) {
-    
-    .container-fluid , .container-fluid_1 , .container-fluid_2 , .container-fluid_3 , .container-fluid_4 , .container-fluid_5 , .container-fluid_6 {
+
+    .container-fluid,
+    .container-fluid_1,
+    .container-fluid_2,
+    .container-fluid_3,
+    .container-fluid_4,
+    .container-fluid_5,
+    .container-fluid_6 {
         padding-left: 36px;
         padding-right: 36px;
-	
-}
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
+
+    }
+
+    @media only screen and (max-width: 767px) {
+        #gallery {
+            margin-top: 75px;
+        }
+
+        .arrow {
+            display: none;
+        }
+        .text p {
+            font-size: 18px;
+        }
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 }

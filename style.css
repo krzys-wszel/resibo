@@ -1,39 +1,34 @@
  @font-face {
      font-family: BodoniBold;
-     src: url(font/Bodoni SvtyTwo ITC TT Bold.woff) format('woff'),
-         src: url(font/Bodoni SvtyTwo ITC TT Bold.otf);
+
+     src: url(font/Bodoni SvtyTwo ITC TT Bold.otf);
  }
 
 
  @font-face {
      font-family: Butler;
-     src: url(font/ButlerRegular.woff)format('woff'),
-         url(font/ButlerRegular.otf);
+     src: url(font/ButlerRegular.otf);
  }
 
  @font-face {
      font-family: ButlerMed;
-     src: url(font/ButlerMedium.woff)format('woff'),
-         url(font/ButlerMedium.otf);
+     src: url(font/ButlerMedium.otf);
  }
 
 
  @font-face {
      font-family: AvenirLight;
-     src: url(font/AvenirLight.woff)format('woff'),
-         url(font/AvenirLight.ttf);
+     src: url(font/AvenirLight.ttf);
  }
 
  @font-face {
      font-family: AvenirMed;
-     src: url(font/AvenirMedium.woff)format('woff'),
-         url(font/AvenirMedium.ttf);
+     src: url(font/AvenirMedium.ttf);
  }
 
  @font-face {
      font-family: Poppins;
-     src: url(font/Poppins-SemiBold.woff)format('woff'),
-         url(font/Poppins-SemiBold.ttf);
+     src: url(font/Poppins-SemiBold.ttf);
  }
 
  /************
@@ -41,21 +36,17 @@ FUTURA
 ----------------*/
  @font-face {
      font-family: FuturaMed;
-     src: url(font/FuturaMedium.woff)format('woff'),
-         url(font/FuturaMedium.otf);
+     src: url(font/FuturaMedium.otf);
  }
 
  @font-face {
      font-family: FuturaPT;
-     src: url(font/FuturaPTBook.woff)format('woff'),
-         url(font/FuturaPTBook.otf);
+     src: url(font/FuturaPTBook.otf);
  }
 
  @font-face {
      font-family: Futura;
-     src: url(font/futura-bold-font.woff)format('woff'),
-         url(font/futura-bold-font.woff2)format('woff2'),
-         url(font/futura-bold-font.ttf);
+     src: url(font/futura-bold-font.ttf);
  }
 
 

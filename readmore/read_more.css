@@ -72,3 +72,8 @@ font-family: FuturaMed;
     left: 0;
 
 }
+@media only screen and (max-width: 767px){
+    .content h1 {
+        font-size: 36px;
+    }
+}

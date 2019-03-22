@@ -24,10 +24,12 @@ body {
 }
 
 .foto2 {
+       width: 621px;
+  height: 414px;
     position: absolute;
     right: 0;
 display: none;
-    top: 4%;
+top: 25%;
 }
 
 .foto3 {
@@ -78,7 +80,7 @@ top: 25%;
     position: relative;
     top: 62%;
     left: 10%;
-    width: 500px;
+    max-width: 500px;
     text-transform: lowercase;
     text-decoration: none;
     display: block;
@@ -98,9 +100,12 @@ top: 25%;
 }
 
 .arrow {
-    position: relative;
-    top: 90px;
-    left: 0;
+       position: relative;
+    top: -155px;
+    left: 50px;
 
+}
+#know_us {
+	padding-top: 0px;
 }
  

@@ -3,7 +3,7 @@ body {
 }
 .content {
     width: 100%;
-    height: 600px;
+    height: 629px;
    /* background: url(img/re1.jpg)no-repeat;*/
     margin-top: 150px;
     margin-bottom: 120px;
@@ -14,11 +14,11 @@ body {
     position: absolute;
         object-fit: cover;
         width: 100%;
-    height: 600px;
+    height: 629px;
 }
 
 #box .container-fluid{
-    width: 90%;
+    max-width: 1340px;;
      
 }
 
@@ -36,9 +36,34 @@ body {
   color: #ffffff;
      
 }
-.foto2 , .foto3 , .foto4 {
-    display: none;
+
+.foto2 {
+       width: 881px;
+  height: 422px;
+    position: absolute;
+    right: 0;
+ display: none;
+top: 25%;
 }
+
+.foto3 {
+     width: 621px;
+  height: 414px;
+    position: absolute;
+    right: 0;
+display: none;
+top: 30%;
+}
+.foto4 {
+     width: 621px;
+  height: 414px;
+    position: absolute;
+    right: 0;
+ display: none;
+top: 20%;
+}
+
+ 
 .content span {
     color: #f2559d;
 }
@@ -68,7 +93,7 @@ font-family: FuturaMed;
 
 .arrow {
     position: relative;
-    top: 90px;
+    top: 102px;
     left: 0;
 
 }

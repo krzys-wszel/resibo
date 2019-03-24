@@ -59,13 +59,13 @@
                     <!--  <img class="foto1" src="img/recognize1.png">-->
 
                     <img class="foto1" src="../img/home4.jpg">
-                    <img class="foto2 img-fluid" src="../img/reach_hover_2.jpg">
+                    <img class="foto2 img-fluid" src="../img/mapa%20%C5%9Bwiata.svg">
                     <img class="foto3 img-fluid" src="../img/reach_hover_2.jpg">
-                    <img class="foto4 img-fluid" src="../img/reach_hover_2.jpg">
+                    <img class="foto4 img-fluid" src="../img/reach_us_hover_3.png">
                     <h1 class="h1">re<span>.</span> ach us!</h1>
                     
                     <a href="find_us.html" class="link1"> WHERE YOU CAN FIND US?</a>
-                    <a class="link2 a2" href="look_to_you.html"> HOW DO WE LOOK TO YOU? </a>
+                    <a class="link2" href="look_to_you.html"> HOW DO WE LOOK TO YOU? </a>
                     <a href="and_fairs.html" class="link3">HOW DOES RESIBO LOOK IN INTERNATIONAL EXHIBITIONS anD FAIRS? </a>
                     </div>
                     <a href="../index.html"> <img class="arrow" src="../img/button_arrow.svg"></a>
@@ -190,15 +190,15 @@
         $('.link1').on('mouseenter', function() {
             $('.foto1').hide();
             $('.foto2').show();
-            $('.h1').addClass('black');
-        
+              $('.h1').css('color', 'black');
+            $("a").css('color', 'black'); 
 
         })
         $('.link1').on('mouseleave', function() {
             $('.foto1').show();
             $('.foto2').hide();
-            $('.h1').removeClass('black');
-         
+             $('.h1').css('color', 'white');
+         $("a").css('color', 'white');
 
         })
     </script>
@@ -206,24 +206,28 @@
         $('.link2').on('mouseenter', function() {
             $('.foto1').hide();
             $('.foto3').show();
-            $('.h1').addClass("black");
+        $('.h1').css('color', 'black');
+            $("a").css('color', 'black');
         })
         $('.link2').on('mouseleave', function() {
             $('.foto1').show();
             $('.foto3').hide();
-            $('.h1').removeClass("black");
+            $('.h1').css('color', 'white');
+            $("a").css('color', 'white');
         })
     </script>
     <script>
         $('.link3').on('mouseenter', function() {
             $('.foto1').hide();
             $('.foto4').show();
-            $('.h1').addClass("black");
+            $('.h1').css('color', 'black');
+            $("a").css('color', 'black');
         })
         $('.link3').on('mouseleave', function() {
             $('.foto1').show();
             $('.foto4').hide();
-            $('.h1').removeClass("black");
+            $('.h1').css('color', 'white');
+            $("a").css('color', 'white');
 
         })
     </script>

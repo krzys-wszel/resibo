@@ -8,7 +8,7 @@ main h1 span {
 }
 
 h1 {
-    font-family: BodoniSvtyTwoITCTT;
+    font-family: CGbold;
     font-size: 60px;
     font-weight: bold;
     font-style: normal;
@@ -18,175 +18,175 @@ h1 {
     color: #000000;
     text-transform: lowercase;
 }
+
 #foto img {
-max-height: 689px;
+    max-height: 689px;
     height: auto;
     margin: 150px auto;
 }
- 
+
 .arrow {
-      /* left: -40%; */
+    /* left: -40%; */
     /* top: 49%; */
     position: absolute;
     left: 5%;
     top: 45%;
-   
+
 }
+
 h2 {
-    
-  font-family: FuturaMed;
-  font-size: 25px;
-  font-weight: 500;
-  font-style: normal;
-  font-stretch: normal;
-  line-height: normal;
-  letter-spacing: 40px;
-  color: #000000;
+
+    font-family: FuturaMed;
+    font-size: 25px;
+    font-weight: 500;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: 40px;
+    color: #000000;
 }
 
 
 
 #know_us {
-	padding-top: 125px;
+    padding-top: 125px;
 }
 
 .leaf {
-  
-  width: 169px;
-  height: 155px;
+
+    width: 169px;
+    height: 155px;
     background-color: aqua;
     margin-top: 150px;
 }
- 
+
 h3 {
-     max-width: 840px;
-  height: 200px;
-  font-family: FuturaMed;
-  font-size: 25px;
-  font-weight: 500;
-  font-style: normal;
-  font-stretch: normal;
-  line-height: 4;
-  letter-spacing: 40px;
-  text-align: center;
-  color: #000000;
+    max-width: 840px;
+    height: 200px;
+    font-family: FuturaMed;
+    font-size: 25px;
+    font-weight: 500;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 4;
+    letter-spacing: 40px;
+    text-align: center;
+    color: #000000;
     margin-top: 250px;
 }
+
 #fotos .row {
-        justify-content: center;
+    justify-content: center;
 }
 
 #fotos h1 {
     font-family: FuturaMed;
-  font-size: 25px;
-  font-weight: 500;
-  font-style: normal;
-  font-stretch: normal;
-  line-height: normal;
-  letter-spacing: 0.7px;
-  color: #000000;
-    text-align: -webkit-left;
+    font-size: 25px;
+    font-weight: 500;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: 0.7px;
+    color: #000000;
+
     text-transform: none;
 }
+
+#fotos .text2 h1 {
+    margin-left: -220px;
+}
+
 #fotos p {
-     font-family: FuturaPT;
-  font-size: 15px;
-  font-weight: normal;
-  font-style: normal;
-  font-stretch: normal;
-  line-height: 1.67;
-  letter-spacing: 0.4px;
-  color: #000000;
-    text-align: -webkit-left;
-     
-  height: 300px;
-}
-
-
-
-#fotos .col-sm-6 {
+    font-family: FuturaPT;
     max-width: 350px;
-    margin: 0px 50px;
+    height: 300px;
+
+    font-size: 15px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.67;
+    letter-spacing: 0.4px;
+    color: #000000;
+    text-align: -webkit-left;
+
+
 }
 
-@media only screen and (max-width: 977px){
-    #fotos .col-sm-6{
-        margin: 0px 0px;
-    }
-}
 
 
 
- 
 .foto1 img {
-	object-fit: cover;
-    margin: 228px auto 30px auto;
-    height: 370px;
-    
+    object-fit: cover;
+    max-width: 800px;
+    height: 500px;
+    width: 100%;
 }
- 
+
 .foto2 img {
-object-fit: cover;
-   margin: 228px auto 30px auto;
-    height: 320px;
+    object-fit: cover;
+    max-width: 800px;
+    height: 500px;
+    width: 100%;
 }
+
+
 
 .foto3 img {
-object-fit: cover;
-   margin: 60px auto 30px auto;
-    height: 320px;
-}
- .foto4 img {
-	object-fit: cover;
-    margin: 11px auto 30px auto;
-    height: 370px;    
-}
-.foto5 img {
-object-fit: cover;
-   margin: 60px auto 30px auto;
-    height: 370px;
-}
- .foto6 img {
-	object-fit: cover;
-    margin: 60px auto 30px auto;
-    height: 320px;    
+    object-fit: cover;
+    max-width: 800px;
+    height: 500px;
+    width: 100%;
 }
 
 
 
 
-.love , .friendship , .magic{
-    font-family: FuturaMed;
-  font-size: 25px;
-  font-weight: 500;
-  font-style: normal;
-  font-stretch: normal;
-  line-height: 4;
-  letter-spacing: 50px;
-  text-align: left;
-  color: #000000;
-}
+
+
+.love,
+.friendship,
 .magic {
-text-align: right;}
+    font-family: FuturaMed;
+    font-size: 25px;
+    font-weight: 500;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 4;
+    letter-spacing: 50px;
+    text-align: left;
+    color: #000000;
+}
+
+.love {
+    margin-top: 200px;
+}
+
+.magic {
+    text-align: right;
+}
 
 
 .text {
     text-align: left;
     margin-top: 100px;
 }
+
 .text p span {
     color: #f2559d
 }
+
 .text p {
     font-family: FuturaPT;
-  font-size: 15px;
-  font-weight: normal;
-  font-style: normal;
-  font-stretch: normal;
-  line-height: normal;
-  letter-spacing: 0.4px;
-  color: #000000;
+    font-size: 15px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: 0.4px;
+    color: #000000;
 }
+
 .p_line {
     width: 100px;
     height: 1px;
@@ -195,20 +195,93 @@ text-align: right;}
     margin-top: 190px;
 }
 
+#fotos {
+    margin-top: 200px;
+}
 
+#fotos .container-fluid {
+    padding-left: 150px;
+    padding-right: 150px;
 
+}
 
+.foto1 {
+    text-align: left;
+}
 
+.text1 {
+    text-align: left;
+    margin-top: 70px;
+}
 
+.row3 {
+    text-align: -webkit-left;
+}
 
+.row2 {
+    margin-top: 100px;
+}
 
+.row2 .text2 h1 {
+    text-align: -webkit-center;
+    margin-left: -30px;
+    margin-top: 70px;
+}
 
+.row3 {
+    margin-top: 100px;
+    text-align: -webkit-left;
+}
 
+@media only screen and (max-width: 1200px) {
+    .col-md-2 {
+        display: block;
+    }
 
+    #fotos .container-fluid {
+        padding-left: 15px;
+        padding-right: 15px;
+    }
 
+    .text1 {
+        margin-top: 25px;
+    }
+}
 
+@media only screen and (max-width: 993px) {
+    .col-md-2 {
+        display: block;
+    }
 
+    #fotos .container-fluid {
+        padding-left: 15px;
+        padding-right: 15px;
 
+    }
 
+    .text1 {
+        margin-top: 25px;
+    }
+}
 
+@media only screen and (max-width: 767px) {
+    .col-md-2 {
+        display: block;
+    }
 
+    #fotos h1 {
+        text-align: -webkit-center;
+    }
+
+    .text1 {
+        text-align: -webkit-center;
+    }
+
+    #fotos p {
+        font-size: 14px;
+    }
+
+    .row2 {
+        margin-top: -20px;
+    }
+}

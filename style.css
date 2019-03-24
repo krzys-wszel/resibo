@@ -1,20 +1,33 @@
  @font-face {
-     font-family: BodoniBold;
+     font-family: CGmed;
+     src: url(font/CormorantGaramond-Medium.ttf);
+     font-weight: bold;
+ }
 
-     src: url(font/Bodoni SvtyTwo ITC TT Bold.otf);
+ @font-face {
+     font-family: CGbold;
+     /*src: url(font/Bodoni SvtyTwo ITC TT Bold.otf);*/
+     src: url(font/CormorantGaramond-Bold.ttf);
+     font-weight: bold;
+ }
+
+ @font-face {
+     font-family: BodoniBold;
+     /*src: url(font/Bodoni SvtyTwo ITC TT Bold.otf);*/
      src: url(font/bodonisvtytwoitcttbold.ttf);
+     font-weight: bold;
  }
 
 
  @font-face {
      font-family: Butler;
-     src: url(font/ButlerRegular.otf);
+     /*src: url(font/ButlerRegular.otf);*/
      src: url(font/butlerregular.ttf);
  }
 
  @font-face {
      font-family: ButlerMed;
-     src: url(font/ButlerMedium.otf);
+     /*src: url(font/ButlerMedium.otf);*/
      src: url(font/butlermedium.ttf);
  }
 
@@ -22,19 +35,20 @@
  @font-face {
      font-family: AvenirLight;
      src: url(font/AvenirLight.ttf);
-     src: url(font/avenirlight.otf);
+     /*src: url(font/avenirlight.otf);*/
  }
 
  @font-face {
      font-family: AvenirMed;
      src: url(font/AvenirMedium.ttf);
-     src: url(font/avenirmedium.otf);
+     /*src: url(font/avenirmedium.otf);*/
  }
 
  @font-face {
      font-family: Poppins;
      src: url(font/Poppins-SemiBold.ttf);
-     src: url(font/poppinssemibold.otf);
+     /*src: url(font/poppinssemibold.otf);*/
+     font-weight: bold;
  }
 
  /************
@@ -42,20 +56,21 @@ FUTURA
 ----------------*/
  @font-face {
      font-family: FuturaMed;
-     src: url(font/FuturaMedium.otf);
+     /*src: url(font/FuturaMedium.otf);*/
      src: url(font/futuraMedium.ttf);
  }
 
  @font-face {
      font-family: FuturaPT;
-     src: url(font/FuturaPTBook.otf);
+     /*src: url(font/FuturaPTBook.otf);*/
      src: url(font/futuraptbook.ttf);
  }
 
  @font-face {
-     font-family: Futura;
-     src: url(font/futura-bold-font.ttf),
-         url(font/futuraboldfont.otf);
+     font-family: FuturaBold;
+     src: url(font/futura-bold-font.ttf);
+     /* src: url(font/futuraboldfont.otf);*/
+     font-weight: bold;
  }
 
 
@@ -93,9 +108,9 @@ FUTURA
  }
 
  .menu-icon.active .burger_white {
-     top: 0px;
+     /*top: 0px;*/
      opacity: 1;
-     position: absolute;
+     position: fixed;
  }
 
  .menu {
@@ -174,6 +189,12 @@ FUTURA
 
  .menu.visible {
      display: flex;
+     position: fixed;
+
+ }
+
+ .menu.visible body {
+     overflow: hidden;
  }
 
  .bitmap {
@@ -244,20 +265,7 @@ HEADER
 
  .button_img_3 {
      top: 59%
- }
-
- .mask {
-     width: 300px;
-     height: 300px;
-     box-shadow: 0 5px 20px 0 rgba(0, 0, 0.5, 0.5);
-     background-color: transparent;
-     border-radius: 50%;
-     position: absolute;
-     top: 50%;
-     left: 50%;
-     transform: translate(-50%, -50%);
-
- }
+ } 
 
  .box a {
      text-decoration: none;
@@ -268,7 +276,8 @@ HEADER
  }
 
  .re_power h1 {
-     width: 475px;
+     max-width: 475px;
+     height: 210px;
      font-family: Futura;
      font-size: 25px;
      font-weight: bold;
@@ -288,9 +297,9 @@ HEADER
 
  .img_1 {
      max-width: 422px;
-     height: auto;
-     /* background: url(img/home1.jpg);*/
-     /* position: relative;*/
+     /* height: auto; */
+     /* background: url(img/home1.jpg); */
+     position: relative;
      top: 50px;
 
 
@@ -315,7 +324,7 @@ HEADER
 
  .img_1 h1 {
      text-decoration: none;
-     font-family: BodoniSvtyTwoITCTT;
+     font-family: BodoniBold;
      font-size: 48px;
      font-weight: bold;
      font-style: normal;
@@ -391,7 +400,7 @@ IMG 3 , IMG 4
 
  .img_3 h1 {
      position: relative;
-     font-family: BodoniSvtyTwoITCTT;
+     font-family: BodoniBold;
      font-size: 50px;
      font-weight: bold;
      font-style: normal;
@@ -439,7 +448,11 @@ KNOW US
 
  #know_us {
      text-align: -webkit-center;
-     padding-top: 150px;
+padding-top: 150px;
+ }
+
+ #know_us .row {
+     justify-content: center;
  }
 
  #know_us h1 {
@@ -588,15 +601,15 @@ KNOW US
 
 
 
- .z2 {
-     opacity: 0.5
- }
+
 
  .z1 {
-     opacity: 1
+     opacity: 0.6
  }
 
-
+ .row_footer {
+     margin-top: 50px;
+ }
 
 
 
@@ -611,21 +624,52 @@ KNOW US
  }
 
  @media only screen and (max-width: 1200px) {
-     .img_3 {
-         width: 100%;
-         left: 0px;
-     }
-
      .img_3 img {
+         width: 100%;
+         position: absolute;
+         /* height: -webkit-fill-available; */
          height: 438px;
      }
+
+     .img_4 {
+         width: 422px;
+         left: 0px;
+         height: 610px;
+         width: 100%;
+     }
+
+     .img_3 {
+         width: 422px;
+         left: 0px;
+         height: 610px;
+         width: 100%;
+     }
+
+     .img3 img {
+         width: 100%;
+         position: absolute;
+         height: -webkit-fill-available;
+
+     }
+
 
      .img_1 h1 {
          font-size: 42px;
      }
+
+     .img_3 h1 {
+         font-size: 30px;
+     }
  }
 
- @media only screen and (max-width: 991px) {
+ @media only screen and (max-width: 993px) {
+#know_us {
+	padding-top: 0px;
+}
+     .menu p {
+         top: -48px;
+     }
+
      .col-md-2 {
          display: none;
      }
@@ -634,33 +678,52 @@ KNOW US
          font-size: 30px;
      }
 
-     .img_3 img {
-         width: 422px;
-     }
 
-     .mask {
-         width: 240px;
-         height: 240px;
-         box-shadow: 0 5px 20px 0 rgba(0, 0, 0.5, 0.5);
-         background-color: transparent;
-         border-radius: 50%;
-         position: absolute;
-         top: -43%;
-         left: 50%;
-         /* transform: translate(-50%, -50%); */
-         position: relative;
+     .box .row {
+
+         justify-content: center;
      }
 
      .img_2 h1 {
          font-size: 36px;
      }
 
-     .img_3 img {
-         height: 100%;
-     }
+
  }
 
  @media only screen and (max-width: 767px) {
+    .re_power h1 {
+      font-size: 17px;
+    margin-top: 132px;
+    letter-spacing: 26.7px;
+     }
+     .img_3 img {
+         width: 100%;
+         position: absolute;
+         /* height: -webkit-fill-available; */
+         height: 438px;
+     }
+
+     .img_3 {
+         margin-top: 0px;
+     }
+
+     .img_4 {
+         top: -120px;
+     }
+
+     .row_footer {
+         margin-top: -145px;
+     }
+
+     .footer_icon {
+         bottom: 230px;
+     }
+
+     .oval {
+         margin: 45px;
+     }
+
      .md_1 {
          text-align: -webkit-center;
      }
@@ -679,6 +742,10 @@ KNOW US
          max-width: 100%;
      }
 
+     .img_4 {
+         height: 438px;
+     }
+
      .img_1 img {
          height: 438px;
      }
@@ -687,9 +754,7 @@ KNOW US
          height: 438px;
      }
 
-     .img_3 img {
-         width: 100%;
-     }
+
 
      .img_2 h1 {
          text-align: -webkit-center;
@@ -701,42 +766,42 @@ KNOW US
      }
 
      .img_2 {
-         top: 25px;
+         top: 90px;
          left: 60px;
          max-width: 100%;
          left: 0px;
      }
 
-     .img_3 img {
-         height: 100%;
-
-     }
-
-     .img_4 {
-         width: 100%;
-         height: 438px;
-         /* background: url(img/1.jpg); */
-         /* left: 215px; */
-         position: relative;
-         left: 0;
-     }
 
  }
 
- @media only screen and (max-width: 431px) {
+ @media only screen and (max-width: 576px) {
+     #footer .col-xl-2 {
+         text-align: left;
+         padding-top: 200px;
+         padding-left: 15px;
+     }
+
+     .row_footer {
+         margin-top: -356px;
+     }
+
+     .footer_icon {
+         bottom: 490px;
+     }
+
+     .a_3 {
+         top: -170px;
+     }
 
      .img_2 {
-         top: 25px;
+         top: 90px;
+         left: 60px;
+         max-width: 100%;
          left: 0px;
      }
- }
 
- @media screen and (min-width: 432px) and (max-width: 574px) {
-
-     .img_2 {
-         top: 25px;
-         left: 40px;
+     .menu p {
+         top: -35px;
      }
-
-
  }

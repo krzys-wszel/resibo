@@ -8,7 +8,7 @@ main h1 span {
 }
 
 h1 {
-    font-family: BodoniBold;
+    font-family: CGbold;
     font-size: 60px;
     font-weight: bold;
     font-style: normal;
@@ -438,18 +438,26 @@ div.slider > div:not(.nav_indicators):not(.next_button):not(.prev_button) {
 
 @media only screen and (max-width: 1200px) {
 
-    .h1_slider2,
-    .h1_slider3,
-    .h1_slider4 {
-        left: -35%;
+    .h1_slider2
+    {
+        left: -13%;
         top: 175px;
     }
 
     .h1_slider {
         top: 34px;
-        left: -313px;
+        left: -85px;
     }
-
+.h1_slider3
+    {
+        left: -28%;
+        top: 175px;
+    }
+    .h1_slider4
+    {
+        left: -13%;
+        top: 175px;
+    }
     #slider img {
         max-width: 190px;
     }
@@ -507,18 +515,18 @@ div.slider > div:not(.nav_indicators):not(.next_button):not(.prev_button) {
 @media only screen and (max-width: 500px) {
      
     #slider img {
-        max-width: 85px;
+        max-width: 60px;
     }
 
     #slider2 img {
-        max-width: 85px;
+        max-width: 60px;
     }
 
     #slider3 img {
-        max-width: 85px;
+        max-width: 60px;
     }
 
     #slider4 img {
-        max-width: 85px;
+        max-width: 60px;
     }
 }

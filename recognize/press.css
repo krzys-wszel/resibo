@@ -8,7 +8,7 @@ main h1 span {
 }
 
 h1 {
-    font-family: BodoniBold;
+    font-family: CGbold;
     font-size: 60px;
     font-weight: bold;
     font-style: normal;
@@ -22,17 +22,19 @@ h1 {
 width: 33.3%;
 }
 .text p {
-    height: 270px;
-   max-width: 1090px;
-    font-family: ButlerMed;
-    font-size: 25px;
-    font-weight: 500;
-    font-style: normal;
-    font-stretch: normal;
-    line-height: 1.8;
-    letter-spacing: 1px;
-    text-align: center;
-    color: #000000;
+   margin-top: 99px;
+    font-family: CGmed;
+  max-width: 1090px;
+  height: 225px;
+ 
+  font-size: 25px;
+  font-weight: 500;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.8;
+  letter-spacing: normal;
+  text-align: center;
+  color: #000000;
 }
 
 .text {
@@ -40,8 +42,8 @@ width: 33.3%;
 }
 
 .arrow {
-    left: -40%;
-    top: -60px;
+    left: -25%;
+    
     position: relative;
    
 }
@@ -62,7 +64,7 @@ width: 33.3%;
 }
 
 #foto p {
-    font-family: Futura;
+    font-family: FuturaMed;
   font-size: 20px;
   font-weight: 900;
   font-style: normal;
@@ -104,13 +106,19 @@ width: 33.3%;
   letter-spacing: 0.4px;
   color: #000000;
     margin-top: 20px;
-    text-align: -webkit-auto;
+     
 }
 
 
 @media only screen and (max-width: 767px){
     .text p {
         font-size: 16px;
+    }
+    .foto5 , .foto6 {
+        padding-top: 0px;
+    }
+    .foto4 , .foto5 , .foto6 {
+        max-width: 400px;
     }
 }
 

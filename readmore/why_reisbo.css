@@ -186,8 +186,24 @@ body {
     }
 }
 
-
-
+@media only screen and (max-width: 500px){
+    .testimonial .pic {
+    width: 150px;
+}
+    .testimonial .title {
+       font-size: 15px;  
+    left: 10px;
+    }
+ .testimonial .description {
+    width: 142px; 
+    left: 10px;   
+}
+    .owl-theme .owl-controls .owl-buttons div {
+   
+    top: 23%;
+    left: 68%;
+    }
+}
 
 
 

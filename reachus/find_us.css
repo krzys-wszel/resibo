@@ -37,6 +37,9 @@ h1 {
 
 }
 
+#gallery .conteiner-fluid {
+    max-width: 1340px;
+}
 .text {
     margin-bottom: -200px;
 }

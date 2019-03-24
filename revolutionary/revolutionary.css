@@ -18,7 +18,7 @@ body {
 }
 
 #box .container-fluid{
-    width: 90%;
+    max-width: 1340px;
      
 }
 .foto2 {
@@ -51,7 +51,7 @@ top: 25%;
     position: relative;
     top: 30%;
     left: 10%;
-     font-family: BodoniBold;
+     font-family: CGbold;
   font-size: 60px;
   font-weight: bold;
   font-style: normal;

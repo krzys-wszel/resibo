@@ -57,18 +57,20 @@
             <div class="container-fluid">
                 <div class="content">
                     <!--  <img class="foto1" src="img/recognize1.png">-->
-                    <img class="foto1" src="../img/home3.jpg">
+                    <img class="foto1" src="../img/home1.jpg">
 
-                    <img class="foto2 img-fluid" src="../img/recognize1.png">
-                    <img class="foto3 img-fluid" src="../img/reach_hover_2.jpg">
-                    <img class="foto4 img-fluid" src="../img/reach_hover_2.jpg">
-                    <h1>re<span>.</span>ad more about us</h1>
-                    <a href="history.html"> OUR HISTORY</a>
-                    <a href="why_work.html"> Why does it work? </a>
-                    <a href="why_reisbo.html">WHY RESIBO?</a>
+                    <img class="foto2 img-fluid" src="../img/history1.jpg">
+                    <img class="foto3 img-fluid" src="../img/why_work.jpg">
+                    <img class="foto4 img-fluid" src="../img/why_reisbo.jpg">
+                    <h1 class="h1">re<span>.</span>ad more about us</h1>
+                    <a href="history.html" class="link1"> OUR HISTORY</a>
+                    <a href="why_work.html" class="link2"> Why does it work? </a>
+                    <a href="why_reisbo.html" class="link3">WHY RESIBO?</a>
                     <a href="../index.html"> <img class="arrow" src="../img/button_arrow.svg"></a>
                 </div>
-
+                <div class="h2">
+                    <h2>Resibo is a Polish natural skincare company. The product line was created by Ewelina Kwit-Betlej in response to her own skin challenges and her awareness that others were experiencing the same problems. Positive feedback about her first product, the Cleansing Oil, which was at the time hand-made brought about the idea to create a complete facial care line. We now offer nineteen products with new ones to be launched soon. Originating in Poland, we are now available worldwide. Resibo is available in Germany, Australia, Austria, Italy, Chile, Japan and we are currently working on other locations.</h2>
+                </div>
             </div>
 
         </section>
@@ -185,48 +187,54 @@
         });
 
     </script>
-       <script>
+    <script>
         $('.link1').on('mouseenter', function() {
             $('.foto1').hide();
             $('.foto2').show();
-            $('.h1').addClass('black');
-        
+            $('.h1').css('color', 'black');
+            $("a").css('color', 'black');
 
         })
         $('.link1').on('mouseleave', function() {
             $('.foto1').show();
             $('.foto2').hide();
-            $('.h1').removeClass('black');
-         
+            $('.h1').css('color', 'white');
+            $("a").css('color', 'white');
 
         })
+
     </script>
     <script>
         $('.link2').on('mouseenter', function() {
             $('.foto1').hide();
             $('.foto3').show();
-            $('.h1').addClass("black");
+            $('.h1').css('color', 'black');
+            $("a").css('color', 'black');
         })
         $('.link2').on('mouseleave', function() {
             $('.foto1').show();
             $('.foto3').hide();
-            $('.h1').removeClass("black");
+            $('.h1').css('color', 'white');
+            $("a").css('color', 'white');
         })
+
     </script>
     <script>
         $('.link3').on('mouseenter', function() {
             $('.foto1').hide();
             $('.foto4').show();
-            $('.h1').addClass("black");
+            $('.h1').css('color', 'black');
+            $("a").css('color', 'black');
         })
         $('.link3').on('mouseleave', function() {
             $('.foto1').show();
             $('.foto4').hide();
-            $('.h1').removeClass("black");
+            $('.h1').css('color', 'white');
+            $("a").css('color', 'white');
 
         })
-    </script>
 
+    </script>
 </body>
 
 </html>

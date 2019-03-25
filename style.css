@@ -278,7 +278,7 @@ HEADER
  .re_power h1 {
      max-width: 475px;
      height: 210px;
-     font-family: Futura;
+     font-family: CGbold;
      font-size: 25px;
      font-weight: bold;
      font-style: normal;
@@ -324,7 +324,7 @@ HEADER
 
  .img_1 h1 {
      text-decoration: none;
-     font-family: BodoniBold;
+     font-family: CGbold;
      font-size: 48px;
      font-weight: bold;
      font-style: normal;
@@ -345,7 +345,7 @@ HEADER
  .img_2 h1 {
 
      text-decoration: none;
-     font-family: BodoniBold;
+     font-family: CGbold;
      font-size: 50px;
      font-weight: bold;
      font-style: normal;
@@ -400,7 +400,7 @@ IMG 3 , IMG 4
 
  .img_3 h1 {
      position: relative;
-     font-family: BodoniBold;
+     font-family: CGbold;
      font-size: 50px;
      font-weight: bold;
      font-style: normal;
@@ -421,7 +421,7 @@ IMG 3 , IMG 4
 
  .img_4 h1 {
      position: relative;
-     font-family: BodoniSvtyTwoITCTT;
+     font-family: CGbold;
      font-size: 50px;
      font-weight: bold;
      font-style: normal;
@@ -655,11 +655,21 @@ padding-top: 150px;
 
      .img_1 h1 {
          font-size: 42px;
+         left: 10%;
      }
-
+.img_2 h1 {
+         font-size: 42px;
+         left: 55%;
+     }
      .img_3 h1 {
-         font-size: 30px;
+         font-size: 42px;
+    left: 4%;
      }
+     .img_4 h1 {
+       
+     font-size: 42px;
+    left: 32%;
+}
  }
 
  @media only screen and (max-width: 993px) {
@@ -705,11 +715,14 @@ padding-top: 150px;
      }
 
      .img_3 {
-         margin-top: 0px;
+         
      }
 
      .img_4 {
          top: -120px;
+     }
+     .img_2 {
+height: 438px;
      }
 
      .row_footer {
@@ -737,7 +750,27 @@ padding-top: 150px;
          left: 50%;
          transform: translateX(-50%);
      }
-
+.img_2 h1 {
+         font-size: 32px;
+    left: 50%;
+    transform: translateX(-50%);
+    top: 50%;
+    position: absolute;
+     }
+     .img_3 h1 {
+             font-size: 32px;
+    left: 50%;
+    transform: translateX(-50%);
+    position: absolute;
+    max-width: 300px;
+    top: 30%;
+     }
+     .img_4 h1 {
+           font-size: 32px;
+    left: 50%;
+    transform: translateX(-50%);
+    position: absolute;
+     }
      .img_1 {
          max-width: 100%;
      }
@@ -752,25 +785,19 @@ padding-top: 150px;
 
      .img_2 img {
          height: 438px;
-     }
-
-
-
-     .img_2 h1 {
-         text-align: -webkit-center;
-         left: 0;
-         transform: translateX(0%);
-         top: -55%;
-
-
-     }
-
+     }     
      .img_2 {
          top: 90px;
          left: 60px;
          max-width: 100%;
          left: 0px;
      }
+     .button {
+	top: 80%;
+}
+     .button_img_3 {
+    top: 60%;
+}
 
 
  }

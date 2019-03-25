@@ -336,6 +336,7 @@ HEADER
      padding-right: 5px;
      position: absolute;
      top: 50%;
+     left: 4%;
  }
 
  .img_1 span {
@@ -387,7 +388,7 @@ IMG 3 , IMG 4
      height: 438px;
      position: relative;
      margin-top: 123px;
-     left: -170px;
+      
  }
 
  .img_4 {
@@ -410,7 +411,7 @@ IMG 3 , IMG 4
      color: #ffffff;
      position: relative;
      top: 37%;
-     left: 10%;
+     left: 13%;
      transform: translate(-50% -50%);
      text-decoration: none;
  }
@@ -480,7 +481,7 @@ padding-top: 150px;
  }
 
  #know_us span {
-     font-family: Futura;
+     font-family: FuturaBold;
      font-weight: 900;
  }
 
@@ -611,7 +612,11 @@ padding-top: 150px;
      margin-top: 50px;
  }
 
-
+@media only screen and (min-width: 1480px){
+    .img_3 {
+        margin-left: -170px;
+    }
+}
 
  @media screen and (min-width: 767px) and (max-width: 1217px) {
      .oval {
@@ -698,6 +703,17 @@ padding-top: 150px;
          font-size: 36px;
      }
 
+     .img_3 h1 {
+    top: 30%;
+    font-size: 36px;
+    left: 0%;
+         text-align: -webkit-center;
+     }
+     .img_4 h1 {
+    font-size: 36px;
+    left: 28%;
+    top: 50%;
+}
 
  }
 
@@ -749,6 +765,7 @@ height: 438px;
          font-size: 32px;
          left: 50%;
          transform: translateX(-50%);
+          text-align: -webkit-center;
      }
 .img_2 h1 {
          font-size: 32px;
@@ -756,6 +773,7 @@ height: 438px;
     transform: translateX(-50%);
     top: 50%;
     position: absolute;
+     text-align: -webkit-center;
      }
      .img_3 h1 {
              font-size: 32px;
@@ -764,12 +782,14 @@ height: 438px;
     position: absolute;
     max-width: 300px;
     top: 30%;
+          text-align: -webkit-center;
      }
      .img_4 h1 {
            font-size: 32px;
     left: 50%;
     transform: translateX(-50%);
     position: absolute;
+         text-align: -webkit-center;
      }
      .img_1 {
          max-width: 100%;
@@ -798,6 +818,14 @@ height: 438px;
      .button_img_3 {
     top: 60%;
 }
+     #footer .col-xl-2 {
+         
+         padding-left: 15px;
+     }
+     #footer .col-xl-4 {
+   
+         padding-left: 15px;
+}
 
 
  }
@@ -814,8 +842,11 @@ height: 438px;
      }
 
      .footer_icon {
-         bottom: 490px;
-     }
+       
+    bottom: 375px;
+    text-align: -webkit-center;
+}
+   
 
      .a_3 {
          top: -170px;
@@ -830,5 +861,12 @@ height: 438px;
 
      .menu p {
          top: -35px;
+     }
+     #footer .col-xl-4 {
+    text-align: center;
+         padding-left: 0px;
+}
+     #footer .col-xl-8  {
+         display: none;
      }
  }

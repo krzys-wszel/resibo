@@ -109,9 +109,14 @@ font-family: FuturaMed;
 
 .arrow {
     position: relative;
-    top: 83px;
+    top: 82px;
     left: 0;
 
+}
+@media only screen and (max-width: 986px){
+    #know_us {
+        margin-top: 100px;
+    }
 }
 @media only screen and (max-width: 767px){
     .content h1 {
@@ -123,7 +128,9 @@ font-family: FuturaMed;
     h2 {
         font-size: 16px;
     }
-    
+    .oval {
+        margin: 35px;
+    }
 .arrow {
     top: 111px;
     }
@@ -131,8 +138,14 @@ font-family: FuturaMed;
 
 @media only screen and (max-width: 465px){
    .arrow {
-    top: 92px;
+    top: 99px;
     } 
+    .content h1 {
+    font-size: 28px;
+}
+    #know_us {
+        margin-top: 230px;
+    }
 }
 
 

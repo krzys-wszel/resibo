@@ -30,7 +30,7 @@ h1 {
     /* top: 49%; */
     position: absolute;
     left: 5%;
-    top: 45%;
+    top: 44%;
 
 }
 
@@ -93,7 +93,9 @@ h3 {
 }
 
 #fotos .text2 h1 {
-    margin-left: -220px;
+       position: relative;
+    text-align: -webkit-right;
+
 }
 
 #fotos p {
@@ -113,7 +115,9 @@ h3 {
 
 }
 
-
+.col_text_2 {
+    text-align: -webkit-right;
+}
 
 
 .foto1 img {
@@ -199,11 +203,7 @@ h3 {
     margin-top: 200px;
 }
 
-#fotos .container-fluid {
-    padding-left: 150px;
-    padding-right: 150px;
-
-}
+ 
 
 .foto1 {
     text-align: left;
@@ -231,6 +231,10 @@ h3 {
 .row3 {
     margin-top: 100px;
     text-align: -webkit-left;
+}
+
+.l_o_v_e {
+	max-width: 40%;
 }
 
 @media only screen and (max-width: 1200px) {
@@ -262,6 +266,9 @@ h3 {
     .text1 {
         margin-top: 25px;
     }
+    .l_o_v_e {
+	max-width: 90%;
+}
 }
 
 @media only screen and (max-width: 767px) {
@@ -284,4 +291,58 @@ h3 {
     .row2 {
         margin-top: -20px;
     }
+    #fotos .text2 h1 {
+        text-align: -webkit-center;
+    }
+    .col_text_2 {
+	text-align: -webkit-center;
 }
+    .love {
+	margin-top: 0px;
+}
+    .l_o_v_e {
+        max-width: 70%;
+        
+    }
+    .love,
+.friendship,
+    .magic {
+        font-size: 15px;
+        letter-spacing: 23px;
+    }
+}
+
+@media only screen and (max-width: 576px) {
+    .love,
+.friendship,
+    .magic {
+        font-size: 15px;
+        letter-spacing: 23px;
+    }
+    .l_o_v_e {
+        max-width: 100%;
+        margin-top: 25px;
+        
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

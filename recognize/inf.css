@@ -30,7 +30,7 @@ h1 {
     text-align: center;
     color: #000000;
     max-width: 875px;
-  height: 135px;
+    height: 135px;
     position: relative;
     top: 100px;
 }
@@ -40,12 +40,11 @@ h1 {
 }
 
 .arrow {
-   position: relative;
+    position: relative;
     left: -40%;
     top: 2%;
     bottom: 32%;
     top: 120px;
-   
 }
 
 #gallery img {
@@ -53,211 +52,221 @@ h1 {
     object-fit: cover;
     display: block;
 }
- 
- .foto1 {
-	width: 400px;
-  height: 600px;
+
+.foto1 {
+    width: 400px;
+    height: 600px;
     margin-top: 100px;
-       
+
 }
+
 .foto1 img {
     width: 100%;
     height: 100%;
 }
 
- 
 .foto2 {
-	width: 400px;
-  height: 600px;    
+    width: 400px;
+    height: 600px;
 }
+
 .foto2 img {
     width: 100%;
     height: 100%;
 }
+
 .foto3 {
-	width: 658px;
-  height: 440px;
-    
-     }
+    width: 658px;
+    height: 440px;
+
+}
+
 .foto3 img {
     width: 100%;
     height: 100%;
-       /* left: -100px; */
-    /* position: relative; */
-    /* top: 170px; */
     margin-top: 170px;
-    /* margin-right: 21px; */
     margin-left: -200px;
 }
+
 .foto3 p {
     margin-left: -200px;
 }
- 
+
 .foto4 {
-	width: 400px;
-  height: 600px; 
+    width: 400px;
+    height: 600px;
 }
-.foto4 img{
-	width: 100%;
-  height: 100%; 
+
+.foto4 img {
+    width: 100%;
+    height: 100%;
 }
+
 .foto5 {
-	width: 400px;
-  height: 600px; 
-    
+    width: 400px;
+    height: 600px;
+
 }
+
 .foto5 img {
     width: 100%;
     height: 100%;
     margin-top: 100px;
     margin-left: -325px;
 }
+
 .foto5 p {
     margin-left: -325px;
 }
+
 .foto6 {
-	width: 600px;
+    width: 600px;
     height: 400px;
 }
+
 .foto6 img {
     width: 100%;
     height: 100%;
-        margin-top: 200px;
+    margin-top: 200px;
     margin-left: -400px;
 }
+
 .foto6 p {
-margin-left: -400px;}
-
-#gallery p{
-    font-family: FuturaMed;
-  font-size: 15px;
-  font-weight: 500;
-  font-style: normal;
-  font-stretch: normal;
-  line-height: normal;
-  letter-spacing: 0.4px;
-  color: #000000;
-    margin-top: 20px;
-
+    margin-left: -400px;
 }
- 
 
+#gallery p {
+    font-family: FuturaMed;
+    font-size: 15px;
+    font-weight: 500;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: 0.4px;
+    color: #000000;
+    margin-top: 20px;
+}
 
 #know_us {
-	padding-top: 150px;
+    padding-top: 150px;
 }
 
-@media only screen and (max-width: 1200px){
+@media only screen and (max-width: 1200px) {
     .col-xl-2 {
         display: none;
     }
-    
+
     .foto3 {
         width: 400px;
         height: 600px;
-            }
+    }
+
     .foto3 img {
         margin-left: 0px;
     }
+
     .foto3 p {
         margin-left: 0px;
     }
+
     .foto4 img {
-	margin-top: 50px;
-}
+        margin-top: 50px;
+    }
+
     .foto5 img {
         margin-left: 0px;
     }
+
     .foto5 p {
         margin-left: 0px;
     }
+
     .foto6 {
         width: 400px;
         height: 600px;
-            }
+    }
+
     .foto6 img {
         margin-left: 0px;
         margin-top: 0px;
     }
+
     .foto6 p {
         margin-left: 0px;
     }
 }
-@media only screen and (max-width: 992px){
+
+@media only screen and (max-width: 992px) {
     #gallery img {
-    width: 87%;
+        width: 87%;
+    }
 }
-}
-@media only screen and (max-width: 767px){
+
+@media only screen and (max-width: 767px) {
     .text p {
         font-size: 16px;
     }
+
     .foto1 {
         height: auto;
         width: auto;
     }
+
     .foto1 img {
         max-height: 400px;
-    max-width: 400px;
+        max-width: 400px;
     }
+
     .foto2 {
         height: auto;
         width: auto;
     }
+
     .foto2 img {
         max-height: 400px;
-    max-width: 400px;
+        max-width: 400px;
     }
+
     .foto3 {
         height: auto;
         width: auto;
     }
+
     .foto3 img {
         max-height: 400px;
-    max-width: 400px;
+        max-width: 400px;
         margin-top: 0px;
     }
+
     .foto4 {
         height: auto;
         width: auto;
     }
+
     .foto4 img {
         max-height: 400px;
-    max-width: 400px;
+        max-width: 400px;
         margin-top: 0px;
     }
+
     .foto5 {
         height: auto;
         width: auto;
     }
+
     .foto5 img {
         max-height: 400px;
-    max-width: 400px;
+        max-width: 400px;
         margin-top: 0px;
     }
+
     .foto6 {
         height: auto;
         width: auto;
     }
+
     .foto6 img {
         max-height: 400px;
-    max-width: 400px;
+        max-width: 400px;
     }
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-

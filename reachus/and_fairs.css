@@ -8,9 +8,7 @@ main h1 span {
 }
 
 h1 {
-
-
-    font-family: BodoniBold;
+    font-family: CGbold;
     font-size: 60px;
     font-weight: bold;
     font-style: normal;
@@ -237,6 +235,9 @@ h1 {
         }
         .text p {
             font-size: 18px;
+        }
+        h1 {
+            font-size: 38px;
         }
     }
 

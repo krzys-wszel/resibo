@@ -104,20 +104,21 @@ h1 {
 }
 
 .foto1{
-      width: 350px;
+      max-width: 350px;
   height: 370px;
   background-color: #f5f6fa;
+    margin-bottom: 60px;
 }
 .foto1 img {
 	object-fit: cover;
       margin: 50px auto 70px auto;
-   width: 270px;
+   max-width: 270px;
   height: 270px;
     
 }
  
 .foto2{
-    width: 350px;
+    max-width: 350px;
   height: 320px;
   background-color: #f5f6fa;
 }
@@ -127,10 +128,11 @@ object-fit: cover;
     height: 320px;
 }
 .foto3 {
-    width: 350px;
+    max-width: 350px;
   height: 320px;
   background-color: #f5f6fa;
-    margin-top: 250px;
+    margin-top: 220px;
+    margin-bottom: 60px;
 }
 .foto3 img {
 object-fit: cover;
@@ -138,7 +140,7 @@ object-fit: cover;
     height: 320px;
 }
 .foto4 {
-      width: 350px;
+      max-width: 350px;
   height: 370px;
   background-color: #f5f6fa;
     margin-top: 202px;

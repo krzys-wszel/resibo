@@ -480,6 +480,11 @@ div.slider > div:not(.nav_indicators):not(.next_button):not(.prev_button) {
     .arrow {
         top: 97%;
     }
+    .p_text {     
+         
+    padding-left: 10px;
+    padding-right: 10px;
+}
 }
 
 @media only screen and (max-width: 977px) {
@@ -493,6 +498,17 @@ div.slider > div:not(.nav_indicators):not(.next_button):not(.prev_button) {
 }
 
 @media only screen and (max-width: 767px) {
+    .p_text {     
+    font-size: 16px; 
+    margin-top: 50px;    
+    padding-left: 10px;
+    padding-right: 10px;
+}
+    .top_foto {
+    max-width: 1240px;
+    max-height: 827px;
+    margin: 50px auto;
+    }
     .foto2 {
         margin-top: 140px;
     }

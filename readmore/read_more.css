@@ -113,6 +113,9 @@ font-family: FuturaMed;
     left: 0;
 
 }
+#know_us .row {
+    margin-top: -150px;
+}
 @media only screen and (max-width: 986px){
     #know_us {
         margin-top: 100px;

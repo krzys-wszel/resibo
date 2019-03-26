@@ -1,0 +1,97 @@
+main {
+    margin-top: 150px;
+    text-align: -webkit-center;
+}
+
+main h1 span {
+    color: #f2559d;
+}
+
+.h1 {
+    font-family: CGbold;
+    font-size: 60px;
+  font-weight: bold;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: center;
+  color: #000000;
+    text-transform: lowercase;
+    z-index: 1;
+    top: 75px;
+    position: relative;
+}
+.arrow {
+	position: absolute;
+    bottom: 106px;;
+    width: 70px;
+}
+.oval_small {
+ 
+        width: 80px;
+    height: 80px;
+     
+    border-radius: 50%;
+  margin: 50px;
+    margin-top: 250px;
+}
+
+#question {
+width: 1340px;
+height: 858px;
+ background-color: #fafafc;
+    top: -85px;
+    position: relative;
+    z-index: -1;
+}
+#question .q_1 h1 {
+ max-width: 635px;
+    height: 96px;
+    font-family: AvenirMed;
+    font-size: 20px;
+    font-weight: 500;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.6;
+    letter-spacing: normal;
+    color: #000000;
+    position: relative;
+     
+    text-align: -webkit-left;
+    margin-left: 220px;
+}
+#question .q_1 p {
+ 
+  font-family: AvenirMed;
+  font-size: 15px;
+  font-weight: 500;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #000000;
+    position: relative;
+    
+    text-align: -webkit-left;
+    margin-left: 220px;
+    margin-top: 35px;
+}
+
+
+ 
+
+
+@media only screen and (min-width: 1200px)
+
+@media only screen and (max-width: 1200px)
+
+@media only screen and (max-width: 977px)
+
+
+@media only screen and (max-width: 767px)
+ 
+
+
+
+

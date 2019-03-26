@@ -1,0 +1,113 @@
+main {
+    margin-top: 150px;
+    text-align: -webkit-center;
+}
+
+main h1 span {
+    color: #f2559d;
+}
+
+h1 {
+    font-family: CGbold;
+    font-size: 60px;
+  font-weight: bold;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: center;
+  color: #000000;
+    text-transform: lowercase;
+}
+#foto .container {
+    max-width: 900px;
+}
+.top_foto {
+	width: 100%;
+    height: 600px;
+       margin-top: 100px;
+    margin-bottom: 100px;
+     background-color: #fafafc;
+
+}
+ 
+.row {
+    justify-content: center;
+}
+/*.arrow {
+      /* left: -40%; */
+    /* top: 49%; */
+  /* position: relative;
+    top: 115%;
+    left: -38%;
+}*/
+ 
+h2 {
+     max-width: 900px;
+  height: 132px;
+  font-family: FuturaPT;
+  font-size: 20px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.65;
+  letter-spacing: 0.4px;
+  text-align: justify;
+  color: #000000;
+    margin-bottom: 50px;
+} 
+h3 {
+    max-width: 900px;
+  height: 90px;
+  font-family: CGbold;
+  font-size: 25px;
+  font-weight: 500;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.8;
+  letter-spacing: normal;
+  color: #000000;
+    text-align: -webkit-left;
+}
+.button {
+	width: 200px;
+    height: 60px;
+    background: black;
+    top: 150%;
+        
+}
+ 
+#know_us {
+	padding-top: 340px;
+}
+
+.q_1 p {
+   
+  width: 635px;
+  height: 96px;
+  font-family: AvenirMed;
+  font-size: 20px;
+  font-weight: 500;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.6;
+  letter-spacing: normal;
+  color: #000000;
+}
+
+ 
+
+
+@media only screen and (min-width: 1200px)
+
+@media only screen and (max-width: 1200px)
+
+@media only screen and (max-width: 977px)
+
+
+@media only screen and (max-width: 767px)
+ 
+
+
+
+

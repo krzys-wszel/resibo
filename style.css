@@ -149,27 +149,6 @@ FUTURA
      transition: color 0.3s ease;
  }
 
- @media only screen and (max-width: 977px) {
-     .menu li {
-         margin-left: 100px;
-     }
-
-     .menu a {
-         font-size: 50px;
-     }
-
- }
-
- @media only screen and (max-width: 560px) {
-     .menu li {
-         margin-left: 50px;
-     }
-
-     .menu a {
-         font-size: 32px;
-     }
-
- }
 
  .menu a:hover {
      text-decoration: line-through;
@@ -871,3 +850,61 @@ height: 438px;
          display: none;
      }
  }
+
+ 
+ @media only screen and (max-width: 977px) {
+     .menu li {
+         margin-left: 100px;
+     }
+
+     .menu a {
+         font-size: 50px;
+     }
+
+ }
+
+ @media only screen and (max-width: 560px) {
+     .menu li {
+         margin-left: 50px;
+     }
+
+     .menu a {
+         font-size: 32px;
+     }
+
+ }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

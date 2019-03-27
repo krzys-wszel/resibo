@@ -20,15 +20,7 @@
     height: 100%;
     object-fit: cover;
 }
-.arrow {
-    /* width: 150px; */
-    /* height: 60px; */
-    object-fit: contain;
-    /* border: solid 1px #ffffff; */
-  position: absolute;
-    left: 170px;
-    bottom: -290px;
-}
+ 
 .ewelina {
 	position: absolute;
     top: 50%;
@@ -90,13 +82,9 @@ color: mediumvioletred}
     margin-top:   500px;
 }
 .arrow {
-    /* width: 150px; */
-    /* height: 60px; */
-    object-fit: contain;
-    /* border: solid 1px #ffffff; */
-    position: relative;
-    left: 90px;
-    bottom: 125px;
+        position: static;
+     margin-top: -250px;
+    margin-left: 50px;
 }
 
 

@@ -12,7 +12,7 @@
             'delayaftershow': 300,
             'stepbystep': true,
             'loop': true,
-            'startslide': 0,
+            'startslide': 40,
             'distancetochange': 10,
             'beforeshow': function () {},
             'aftershow': function () {},

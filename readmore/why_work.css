@@ -33,6 +33,36 @@ h1 {
     top: 44%;
 
 }
+.napis {
+    max-width: 628px;
+}
+.love,
+.friendship,
+.magic {
+    font-family: FuturaMed;
+    font-size: 25px;
+    font-weight: 500;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 4;
+    letter-spacing: 50px;
+    text-align: left;
+    color: #000000;
+}
+
+.love {
+    margin-top: 200px;
+    text-align: left;
+    }
+.friendship {
+ 
+}
+
+.magic {
+    text-align: right;
+}
+
+
 
 h2 {
 
@@ -148,28 +178,6 @@ h3 {
 
 
 
-.love,
-.friendship,
-.magic {
-    font-family: FuturaMed;
-    font-size: 25px;
-    font-weight: 500;
-    font-style: normal;
-    font-stretch: normal;
-    line-height: 4;
-    letter-spacing: 50px;
-    text-align: left;
-    color: #000000;
-}
-
-.love {
-    margin-top: 200px;
-}
-
-.magic {
-    text-align: right;
-}
-
 
 .text {
     text-align: left;
@@ -272,6 +280,9 @@ h3 {
 }
 
 @media only screen and (max-width: 767px) {
+    .napis {
+    max-width: 307px;
+}
     .col-md-2 {
         display: block;
     }

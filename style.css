@@ -583,8 +583,16 @@ padding-top: 150px;
 
 
 
-
- .z1 {
+.img_1:hover {
+opacity: 0.6
+}
+.img_3:hover {
+opacity: 0.6
+}
+.img_4:hover {
+opacity: 0.6
+}
+ .z1:hover {
      opacity: 0.6
  }
 

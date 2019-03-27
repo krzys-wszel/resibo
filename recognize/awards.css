@@ -3,7 +3,7 @@ main {
     text-align: -webkit-center;
 }
 
-main span {
+main h1 span {
     color: #f2559d;
 }
 
@@ -18,7 +18,9 @@ h1 {
     text-align: center;
     color: #000000;
     text-transform: lowercase;
+margin-top: 220px;
 }
+
 
 .text p {
     max-width: 1090px;
@@ -32,7 +34,7 @@ h1 {
     letter-spacing: normal;
     text-align: center;
     color: #000000;
-    margin-top: 100px;
+    margin-top: 99px;
 }
 
 
@@ -222,7 +224,7 @@ h1 {
     text-align: -webkit-left;
     left: 50%;
     position: relative;
-    top: 50%;
+    /*top: 50%;*/
     z-index: 1;
 }
 
@@ -282,7 +284,7 @@ h1 {
 .a_text_3 {
     text-align: -webkit-left;
     position: relative;
-    top: 170px;
+    top: -50px;
      
 }
 
@@ -359,7 +361,7 @@ h1 {
 .a_text_4 {
     text-align: -webkit-left;
     position: relative;
-    top: 175px;
+    top: -30px;
     left: 50%;
     z-index: 1;
 }
@@ -420,10 +422,16 @@ h1 {
 .a_text_5 {
     text-align: -webkit-left;
     position: relative;
-    top: 170px;
+    top: -35px;
     left: 10%;
 }
-
+@media only screen and (max-width: 1480px) {
+    .a_img_4 {
+    width: 570px;
+    height: 450px;
+    background-color: #dde1e7;
+}
+}
 @media only screen and (max-width: 1200px) {
     .a_img_1 {
         width: 500px;
@@ -443,6 +451,11 @@ h1 {
 
 
 @media only screen and (max-width: 992px) {
+    .arrow {
+    left: -301px;
+    position: relative;
+    top: 65px;
+}
     .a_img_1 {
         width: 610px;
     }
@@ -455,6 +468,9 @@ h1 {
     .a_text_4 {
         left: 30%;
     }
+    .a_img_4 {
+        width: 100%;
+    }
     .a_img_5 {
         width: 365px;
     }
@@ -463,19 +479,27 @@ h1 {
 
 
 @media only screen and (max-width: 767px) {
+    .row4 {
+	margin-top: -440px;
+}
+    .arrow {
+    left: -87px;
+    position: relative;
+    top: 65px;
+}
     .text p {
         font-size: 16px;
     }
     .a_text_1 {
         margin-left: 10px;
         text-align: -webkit-center;
-        margin-top: -550px;
+        margin-top: -770px;
     }
     .a_text_1 h1 {
 text-align: -webkit-center
     }
     #know_us {
-	margin-top: 200px;
+	margin-top: -270px;
 }
     .a_text_2 {
         left: 0px;
@@ -487,7 +511,7 @@ text-align: -webkit-center
     }
 
     .row2 {
-    margin-top: 150px;
+    margin-top: -20px;
 }
     .row3 {
     margin-top: 150px;
@@ -498,7 +522,7 @@ text-align: -webkit-center
     .a_text_3 {
     text-align: -webkit-center;
     position: relative;
-    top: -550px;
+    top: -770px;
 }
     .a_text_3 h1 {
 text-align: -webkit-center
@@ -516,6 +540,9 @@ text-align: -webkit-center
     .a_img_4 {
         width: 100%;
     }
+    .a_img_1 {
+        width: 100%;
+    }
     .a_img_5 {
         width: 100%;
     }
@@ -524,10 +551,11 @@ text-align: -webkit-center
 }
     .a_text_5 {
      
-    top: -555px;
+    top: -760px;
 }
     .a_text_5 {
-    text-align: -webkit-center; 
+    text-align: -webkit-center;
+        left: 0;
     
 }
     .a_text_5 h1 {

@@ -86,6 +86,45 @@ h1 {
     height: 300px;
 }
 
+.opis {
+    max-width: 270px;
+    text-align: left;
+}
+
+.opis h1 {
+    margin-top: 10px;
+    font-family: FuturaMed;
+    font-size: 20px;
+    font-weight: 500;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: 0.5px;
+    color: #000000;
+}
+
+.opis h2 {
+    font-family: FuturaPT;
+    font-size: 12px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 2.75;
+    letter-spacing: 0.2px;
+    text-align: justify;
+    color: #000000;
+}
+
+.opis h3 {
+    font-family: FuturaPT;
+    font-size: 15px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: 0.4px;
+    color: #000000;
+}
 
 
 #fotos .col-sm-6 {
@@ -181,6 +220,7 @@ h1 {
     position: relative;
     top: -20px;
     left: -486px;
+
 }
 
 #slider2 {
@@ -207,6 +247,7 @@ h1 {
     position: relative;
     top: 130px;
     left: -486px;
+    margin-top: 135px;
 }
 
 #slider3 {
@@ -233,6 +274,7 @@ h1 {
     position: relative;
     top: 130px;
     left: -486px;
+    margin-top: 135px;
 }
 
 #slider4 {
@@ -259,6 +301,7 @@ h1 {
     position: relative;
     top: 130px;
     left: -486px;
+    margin-top: 135px;
 }
 
 /*-------------------*/
@@ -412,7 +455,13 @@ h1 {
     display: none;
 }
 
-
+.arrow {
+    /* left: -40%; */
+    /* top: 49%; */
+    position: relative;
+    top: 15%;
+    left: -38%;
+}
 
 
 div.slider > div:not(.nav_indicators):not(.next_button):not(.prev_button) {
@@ -437,9 +486,11 @@ div.slider > div:not(.nav_indicators):not(.next_button):not(.prev_button) {
 }
 
 @media only screen and (max-width: 1200px) {
+    .opis {
+        max-width: 200px;
+    }
 
-    .h1_slider2
-    {
+    .h1_slider2 {
         left: -13%;
         top: 175px;
     }
@@ -448,16 +499,17 @@ div.slider > div:not(.nav_indicators):not(.next_button):not(.prev_button) {
         top: 34px;
         left: -85px;
     }
-.h1_slider3
-    {
+
+    .h1_slider3 {
         left: -28%;
         top: 175px;
     }
-    .h1_slider4
-    {
+
+    .h1_slider4 {
         left: -13%;
         top: 175px;
     }
+
     #slider img {
         max-width: 190px;
     }
@@ -478,13 +530,14 @@ div.slider > div:not(.nav_indicators):not(.next_button):not(.prev_button) {
 
 @media only screen and (max-width: 1200px) {
     .arrow {
-        top: 97%;
+        top: 15%;
     }
-    .p_text {     
-         
-    padding-left: 10px;
-    padding-right: 10px;
-}
+
+    .p_text {
+
+        padding-left: 10px;
+        padding-right: 10px;
+    }
 }
 
 @media only screen and (max-width: 977px) {
@@ -495,23 +548,38 @@ div.slider > div:not(.nav_indicators):not(.next_button):not(.prev_button) {
     .arrow {
         top: 94%;
     }
+
+    .opis {
+        max-width: 180px;
+    }
 }
 
 @media only screen and (max-width: 767px) {
-    .p_text {     
-    font-size: 16px; 
-    margin-top: 50px;    
-    padding-left: 10px;
-    padding-right: 10px;
-}
-    .top_foto {
-    max-width: 1240px;
-    max-height: 827px;
-    margin: 50px auto;
+    .opis {
+        max-width: 143px;
     }
+
+    .opis h1 {
+        font-size: 15px;
+    }
+
+    .p_text {
+        font-size: 16px;
+        margin-top: 50px;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .top_foto {
+        max-width: 1240px;
+        max-height: 827px;
+        margin: 50px auto;
+    }
+
     .foto2 {
         margin-top: 140px;
     }
+
     #slider img {
         max-width: 140px;
     }
@@ -528,8 +596,35 @@ div.slider > div:not(.nav_indicators):not(.next_button):not(.prev_button) {
         max-width: 140px;
     }
 }
+
+@media only screen and (max-width: 550px) {
+    .opis h1 {
+        display: none;
+    }
+
+    .opis h2 {
+        display: none;
+    }
+
+    .opis h3 {
+        display: none;
+    }
+
+    .h1_slider2 {
+        margin-top: -10px;
+    }
+
+    .h1_slider3 {
+        margin-top: -10px;
+    }
+
+    .h1_slider4 {
+        margin-top: -10px;
+    }
+}
+
 @media only screen and (max-width: 500px) {
-     
+
     #slider img {
         max-width: 60px;
     }

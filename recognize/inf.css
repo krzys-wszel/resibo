@@ -54,7 +54,7 @@ h1 {
 }
 
 .foto1 {
-    width: 400px;
+    max-width: 400px;
     height: 600px;
     margin-top: 100px;
 
@@ -66,7 +66,7 @@ h1 {
 }
 
 .foto2 {
-    width: 400px;
+    max-width: 400px;
     height: 600px;
 }
 
@@ -76,7 +76,7 @@ h1 {
 }
 
 .foto3 {
-    width: 658px;
+    max-width: 658px;
     height: 440px;
 
 }
@@ -89,11 +89,11 @@ h1 {
 }
 
 .foto3 p {
-    margin-left: -200px;
+    margin-left: -100px;
 }
 
 .foto4 {
-    width: 400px;
+    max-width: 400px;
     height: 600px;
 }
 
@@ -103,7 +103,7 @@ h1 {
 }
 
 .foto5 {
-    width: 400px;
+    max-width: 400px;
     height: 600px;
 
 }
@@ -116,11 +116,11 @@ h1 {
 }
 
 .foto5 p {
-    margin-left: -325px;
+    margin-left: -162px;
 }
 
 .foto6 {
-    width: 600px;
+    max-width: 600px;
     height: 400px;
 }
 
@@ -128,12 +128,11 @@ h1 {
     width: 100%;
     height: 100%;
     margin-top: 200px;
-    margin-left: -400px;
+     
+    object-position: top;
 }
 
-.foto6 p {
-    margin-left: -400px;
-}
+ 
 
 #gallery p {
     font-family: FuturaMed;
@@ -151,16 +150,82 @@ h1 {
     padding-top: 150px;
 }
 
+.p_1 {
+    position: relative;
+    text-align: -webkit-left;
+}
+
+.p_2 {
+    position: relative;
+    text-align: -webkit-left;
+}
+
+.p_3 {
+    position: relative;
+    text-align: -webkit-left;
+}
+
+.p_4 {
+    position: relative;
+    text-align: -webkit-left;
+}
+
+.p_5 {
+    position: relative;
+    text-align: -webkit-left;
+}
+
+.p_6 {
+    position: relative;
+    text-align: -webkit-left;
+}
+
+@media only screen and (min-width: 1200px) {
+    .foto1 {
+        width: 400px;
+        height: 600px;
+    }
+
+    .foto2 {
+        width: 400px;
+        height: 600px;
+    }
+
+    .foto3 {
+        width: 658px;
+        height: 440px;
+    }
+
+    .foto4 {
+        width: 400px;
+        height: 600px;
+        position: relative;
+        left: 100px;
+    }
+
+    .foto6 {
+        width: 600px;
+
+    }
+
+    .foto5 {
+        position: relative;
+        left: 60px;
+    }
+}
+
 @media only screen and (max-width: 1200px) {
     .col-xl-2 {
         display: none;
     }
+
     #footer .col-xl-2 {
         display: block;
-        
+
     }
+
     .foto3 {
-        width: 400px;
+        max-width: 400px;
         height: 600px;
     }
 
@@ -185,7 +250,7 @@ h1 {
     }
 
     .foto6 {
-        width: 400px;
+        max-width: 400px;
         height: 600px;
     }
 
@@ -199,11 +264,7 @@ h1 {
     }
 }
 
-@media only screen and (max-width: 992px) {
-    #gallery img {
-        width: 87%;
-    }
-}
+@media only screen and (max-width: 992px) {}
 
 @media only screen and (max-width: 767px) {
     .text p {

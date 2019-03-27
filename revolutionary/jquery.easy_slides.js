@@ -4,7 +4,7 @@
     $.fn.EasySlides = function (options) {
         var settings = $.extend({
             'autoplay': false,
-            'timeout': 3000,
+            'timeout': 5000,
             'show': 5,
             'vertical': false,
             'reverse': false,
@@ -84,7 +84,7 @@
                     if (EasySlidesCanChange) {
                         EasySlidesCanChange = false;
                         setTimeout(function () {
-                            EasySlidesCanChange = true;
+                            EasySlidesCanChange = false;
                         }, settings['delayaftershow']);
                         clearTimeout(EasySlidesTimer);
                         if (typeof settings['beforeshow'] == 'function') {
@@ -225,7 +225,7 @@
                     cur_slide--;
                     EasySlidesNext(cur_slide);
                 });
-                if (settings['touchevents']) {
+             /*   if (settings['touchevents']) {
                     var EasySliderMoved = function (xcur, ycur) {
                         var offset = $(slides).find('.active').offset();
                         var left = 0;
@@ -272,7 +272,7 @@
                         }
                     }
                     /*События*/
-                    $(this_slider).bind('mousemove', function (e) {
+                /*    $(this_slider).bind('mousemove', function (e) {
                         e.preventDefault();
                         if (e.buttons > 0) {
                             EasySliderMoved(e.pageX, e.pageY);
@@ -300,9 +300,9 @@
                     });
                     $(this_slider).bind('touchend', function (e) {
                         $(this_slider).removeData('posstart');
-                    });
+                    });  */
 
-                }
+             /*   }*/
             }
         });
     }

@@ -108,7 +108,7 @@ h1 {
     position: absolute;
     transform: rotate(-90deg);
     right: -85px;
-    top: 255px;
+    top: 246px;
 }
 
 .p_1 {
@@ -123,9 +123,24 @@ h1 {
     position: absolute;
     transform: rotate(-90deg);
     left: -95px;
-    top: 255px;
+    top: 221px;
 }
+ 
+.p_3 {
+    top: 232px;
+}
+.p_4 {
+    left: -105px;
+    top: 230px;
 
+}
+.p_5 {
+    top: 221px;
+}
+.p_6 {
+    left: -103px;
+    top: 227px;
+}
 .foto2 {
     margin-top: 102px;
     width: 100%;

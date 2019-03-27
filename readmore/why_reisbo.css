@@ -82,14 +82,13 @@ body {
     left: 50px;
     text-align: left
 }
-.testimonial .description:before{
-    content: "\f10e";
-    font-family: "Font-Awesome";
-    font-size: 32px;
-    color: black;
+.mark {
+  
     position: absolute;
-    top: -110px;
-    left: 7px;
+    top: 25%;
+    left: 25%;
+    background: transparent;
+
 }
 .testimonial .testimonial-profile{
     position: relative;
@@ -129,7 +128,9 @@ body {
 .owl-theme .owl-controls .owl-buttons .owl-prev {
     display: none
 }
-
+.owl-theme .owl-controls .owl-buttons .owl-next {
+    color: transparent;
+}
 #text {
     margin-top: 250px
 }

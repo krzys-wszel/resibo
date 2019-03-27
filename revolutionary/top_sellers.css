@@ -19,7 +19,7 @@ h1 {
     text-transform: lowercase;
 }
 .top_foto {
-	max-height: 689px;
+	max-height: 700px;
        margin-top: 40px;
     margin-bottom: 150px;
 }
@@ -29,10 +29,16 @@ h1 {
       /* left: -40%; */
     /* top: 49%; */
    position: relative;
-    top: 115%;
+    top: 58%;
     left: -38%;
 }
- 
+.col1 {
+    text-align: -webkit-right;
+}
+.col2 {
+    text-align: -webkit-left;
+}
+
    
  
  
@@ -81,7 +87,12 @@ h1 {
 @media only screen and (min-width: 1200px){
     #fotos {
 	margin-top: 100px;
+    
 }
+    .top_foto .zdj {
+        width: 100%;
+        height: 700px;
+    }
 }
 @media only screen and (max-width: 1200px){
     .arrow {
@@ -98,6 +109,9 @@ h1 {
 }
 
 @media only screen and (max-width: 767px){
+    .col1 , .col2 {
+        text-align: -webkit-center;
+    }
     .foto2 {
         margin-top: 190px;
     }

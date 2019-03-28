@@ -7,6 +7,11 @@
     max-width: 770px;
     max-height: 790px;
 }
+.sticky {
+  position: fixed;
+   
+    
+    
 }
 .foto1 {
 /*	height: 790px;
@@ -242,6 +247,9 @@ color: mediumvioletred}
 	text-align: -webkit-center;
 }
 @media only screen and (max-width: 1200px){
+     .sticky {
+	max-width: 40%;
+}
     #box p {
         left: 5%;
         top: 40%;
@@ -261,6 +269,10 @@ color: mediumvioletred}
     
 }
 @media only screen and (max-width: 767px){
+    .sticky {
+	max-width: 40%;
+        
+}
     .text_box {
         text-align: -webkit-center;
     }
@@ -284,6 +296,7 @@ color: mediumvioletred}
 }
 
 @media only screen and (max-width: 967px){
+   
     .ewelina {
 	top: 25%;
 }

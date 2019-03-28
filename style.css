@@ -458,6 +458,15 @@ KNOW US
      text-align: center;
      color: #000000;
  }
+.line {
+  text-decoration: #f0c line-through;
+}
+.line::after,.line::before{
+  content:'\00a0\00a0\00a0\00a0';
+}
+
+
+
 
  #know_us h2 {
      font-family: FuturaPT;

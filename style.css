@@ -433,11 +433,18 @@ IMG 3 , IMG 4
  .img_4 span {
      color: #f2559d;
  }
-.line:hover {
-    text-decoration: white line-through;
+.l:hover {
+    text-decoration:   line-through;
 }
-.line::after,.line::before{
+.l::after,.l::before{
   content:'\00a0\00a0\00a0\00a0';
+}
+
+.l2:hover {
+    text-decoration:  line-through;
+}
+.l2::after,.l2::before{
+  content:'\00a0\00a0';
 }
 
  /* ------------------------
@@ -464,14 +471,7 @@ KNOW US
      text-align: center;
      color: #000000;
  }
-.line {
-  text-decoration: #f0c line-through;
-}
-.line::after,.line::before{
-  content:'\00a0\00a0\00a0\00a0';
-}
-
-
+ 
 
 
  #know_us h2 {
@@ -487,7 +487,7 @@ KNOW US
  }
 
  #know_us span {
-     font-family: FuturaBold;
+     font-family: Futura ;
      font-weight: 900;
  }
 
@@ -509,7 +509,7 @@ KNOW US
      margin: 80px;
 
  }
-
+ 
  #know_us .oval h1 {
      font-family: FuturaMed;
      font-size: 15px;
@@ -551,10 +551,7 @@ KNOW US
      color: #000000;
  }
 
- #footer a:hover {
-     text-decoration: line-through;
- }
-
+  
  .line {
      height: 1px;
      background-color: #000000;
@@ -581,7 +578,9 @@ KNOW US
      letter-spacing: 1px;
      color: #000000;
  }
-
+#footer a:hover {
+    text-decoration: line-through;
+}
  .footer_icon {
      padding-top: 200px;
      text-align: right;
@@ -739,7 +738,83 @@ KNOW US
 
  }
 
- @media only screen and (max-width: 767px) {
+ 
+ @media only screen and (max-width: 576px) {
+      
+
+     #footer .col-xl-2 {
+         text-align: left;
+         padding-top: 200px;
+         padding-left: 15px;
+     }
+
+     .row_footer {
+         margin-top: -356px;
+     }
+
+     .footer_icon {
+
+         bottom: 375px;
+         text-align: -webkit-center;
+     }
+
+
+     .a_3 {
+         top: -170px;
+     }
+
+     .img_2 {
+         top: 90px;
+         left: 60px;
+         max-width: 100%;
+         left: 0px;
+     }
+
+     .menu p {
+         bottom: 11px;
+     }
+     .nav_icon {
+	bottom: 20px
+        
+}
+
+     #footer .col-xl-4 {
+         text-align: center;
+         padding-left: 0px;
+     }
+
+     #footer .col-xl-8 {
+         display: none;
+     }
+ }
+
+
+ @media only screen and (max-width: 977px) {
+     .menu li {
+         margin-left: 100px;
+     }
+
+     .menu a {
+         font-size: 50px;
+     }
+
+ }
+
+ @media only screen and (max-width: 560px) {
+     .menu li {
+         margin-left: 0px;
+     }
+
+     .menu a {
+         font-size: 27px;
+         
+     }
+
+ }
+@media only screen and (max-width: 767px) {
+     .menu li {
+         margin-left: 50px;
+     }
      .re_power h1 {
          font-size: 17px;
          margin-top: 132px;
@@ -862,74 +937,3 @@ KNOW US
 
  }
 
- @media only screen and (max-width: 576px) {
-      
-
-     #footer .col-xl-2 {
-         text-align: left;
-         padding-top: 200px;
-         padding-left: 15px;
-     }
-
-     .row_footer {
-         margin-top: -356px;
-     }
-
-     .footer_icon {
-
-         bottom: 375px;
-         text-align: -webkit-center;
-     }
-
-
-     .a_3 {
-         top: -170px;
-     }
-
-     .img_2 {
-         top: 90px;
-         left: 60px;
-         max-width: 100%;
-         left: 0px;
-     }
-
-     .menu p {
-         bottom: 11px;
-     }
-     .nav_icon {
-	bottom: 20px
-        
-}
-
-     #footer .col-xl-4 {
-         text-align: center;
-         padding-left: 0px;
-     }
-
-     #footer .col-xl-8 {
-         display: none;
-     }
- }
-
-
- @media only screen and (max-width: 977px) {
-     .menu li {
-         margin-left: 100px;
-     }
-
-     .menu a {
-         font-size: 50px;
-     }
-
- }
-
- @media only screen and (max-width: 560px) {
-     .menu li {
-         margin-left: 50px;
-     }
-
-     .menu a {
-         font-size: 32px;
-     }
-
- }

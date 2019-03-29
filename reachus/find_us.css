@@ -22,7 +22,7 @@ h1 {
 }
 
 .text p {
-    font-family: ButlerMed;
+    font-family: CGMed;
     font-size: 25px;
     font-weight: 500;
     font-style: normal;
@@ -44,17 +44,17 @@ h1 {
     margin-bottom: -200px;
 }
 
-.arrow {
-       position: relative;
-    left: -30%;
-    /* top: -28%; */
-    top: 300px;
-}
- 
 
+.arrow {
+	position: absolute;
+    /* margin-top: -50px; */
+    left: 10%;
+    top: 45%;
+}
  
 #gallery img {
     margin-top: 130px;
+    position: relative
 }
 
 #know_us h1 {
@@ -62,7 +62,7 @@ h1 {
 }
 .Japan_box {
 	    max-width: 400px;
-    top: 80%;
+    top: 53%;
     position: absolute;
     left: 50%;
     transform: translateX(-50%);
@@ -88,19 +88,26 @@ width: 100%;
  
     
 }
-
+@media only screen and (max-width: 977px){
+    #know_us {
+	padding-top: 200px;
+}
+}
 @media only screen and (max-width: 767px){
-    .japan {
+    #know_us {
+	padding-top: 250px;
+}
+    /* .japan {
     max-width: 200px;
     max-height: 274px;
     position: absolute;
     /* display: initial; */
     /* left: -50%; */
-    right: 50%;
+   /* right: 50%;
     transform: translateX(50%);
     top: 60%;
         opacity: 0.5
-    }
+    }*/
 }
 
 

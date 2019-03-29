@@ -114,7 +114,7 @@
         </section>
 
 
-          <section id="footer">
+        <section id="footer">
             <div class="line"></div>
             <div class="container-fluid">
                 <div class="row">
@@ -192,25 +192,36 @@
 
     </script>
     <script>
-         
-      
-        $('.link1').on('mouseenter', function() {
-            $('.foto1').hide();
-            $('.foto2').show();
-            $('.h1').css('color', 'black');
-            $("a").css('color', 'black');
+        var x = window.matchMedia("(min-width: 767px)")
+        myFunction(x)
+        x.addListener(myFunction)
 
-        })        
-        $('.link1').on('mouseleave', function() {
-            $('.foto1').show();
-            $('.foto2').hide();
-            $('.h1').css('color', 'white');
-            $("a").css('color', 'white');
-        })
- 
- 
+        function myFunction(x) {
+            if (x.matches) {  
+                $('.link1').on('mouseenter', function() {
+                    $('.foto1').hide();
+                    $('.foto2').show();
+                    $('.h1').css('color', 'black');
+                    $("a").css('color', 'black');
+
+                })
+                 $('.link1').on('mouseleave', function() {
+                    $('.foto1').show();
+                    $('.foto2').hide();
+                    $('.h1').css('color', 'white');
+                    $("a").css('color', 'white');
+                })
+            } 
+        }
+
     </script>
     <script>
+        var x = window.matchMedia("(min-width: 767px)")
+        myFunction(x)
+        x.addListener(myFunction)
+
+        function myFunction(x) {
+            if (x.matches) {  
         $('.link2').on('mouseenter', function() {
             $('.foto1').hide();
             $('.foto3').show();
@@ -223,9 +234,17 @@
             $('.h1').css('color', 'white');
             $("a").css('color', 'white');
         })
+                    } 
+        }
 
     </script>
     <script>
+         var x = window.matchMedia("(min-width: 767px)")
+        myFunction(x)
+        x.addListener(myFunction)
+
+        function myFunction(x) {
+            if (x.matches) {  
         $('.link3').on('mouseenter', function() {
             $('.foto1').hide();
             $('.foto4').show();
@@ -239,6 +258,8 @@
             $("a").css('color', 'white');
 
         })
+            } 
+        }
 
     </script>
 </body>

@@ -157,10 +157,10 @@ FUTURA
  }
 
 
- .menu a:hover {
+ /*.menu a:hover {
      text-decoration: line-through;
 
- }
+ }*/
 
  .menu.visible {
      display: flex;
@@ -433,6 +433,12 @@ IMG 3 , IMG 4
  .img_4 span {
      color: #f2559d;
  }
+.line:hover {
+    text-decoration: white line-through;
+}
+.line::after,.line::before{
+  content:'\00a0\00a0\00a0\00a0';
+}
 
  /* ------------------------
 KNOW US 

@@ -62,11 +62,11 @@
                             <div class="foto1">
                                 <img class="img-fluid" src="../img/history1.jpg">
                             </div>
-                            
+
                             <a href="../index.html"> <img class="arrow" src="../img/button_arrow.svg"></a>
                             <img class="ewelina" src="../img/ewelina.svg">
-                        <h2>Ewelina Kwit-Betlej
-the brand owner</h2>
+                            <h2>Ewelina Kwit-Betlej
+                                the brand owner</h2>
                         </div>
                     </div>
                     <div class="col-sm-6 text_box">
@@ -248,9 +248,6 @@ the brand owner</h2>
         </div>
 
 
-         
-        
-
 
 
 
@@ -270,7 +267,7 @@ the brand owner</h2>
                 <h2>Get to know us! Leave your e-mail address to receive more info from <br><span>#ResiboTeam</span> in the following weeks!</h2>
             </div>
 
-             <div class="container-fluid">
+            <div class="container-fluid">
                 <div class="row">
                     <div class="oval">
                         <img src="../img/GMP.svg">
@@ -292,13 +289,13 @@ the brand owner</h2>
                         <img src="../img/HQ.svg">
                         <h1>HQ</h1>
                     </div>
-                    
+
                 </div>
             </div>
         </section>
 
 
-          <section id="footer">
+        <section id="footer">
             <div class="line"></div>
             <div class="container-fluid">
                 <div class="row">
@@ -376,27 +373,22 @@ the brand owner</h2>
         });
 
     </script>
-    
+
     <script>
-    // When the user scrolls the page, execute myFunction 
-window.onscroll = function() {myFunction()};
+        $(window).scroll(function() {
+            if ($(window).scrollTop() >= 100) {
+                $('.content').addClass('sticky');
+             
+            } else {
+                $('.content').removeClass('sticky');
+            }
+            if ($(window).scrollTop() >= 2700) {
+                $('.content').removeClass('sticky');
+            }
 
-// Get the header
-var header = document.getElementById("content");
+        });
 
-// Get the offset position of the navbar
-var sticky = header.offsetTop;
-
-// Add the sticky class to the header when you reach its scroll position. Remove "sticky" when you leave the scroll position
-function myFunction() {
-  if (window.pageYOffset > sticky) {
-    header.classList.add("sticky");
-  } else {
-    header.classList.remove("sticky");
-  }
-}
     </script>
-
 </body>
 
 </html>

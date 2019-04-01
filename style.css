@@ -405,6 +405,10 @@ IMG 3 , IMG 4
   content:'\00a0\00a0';
 }
 
+.md_1 , .md_2 {
+	text-align: -webkit-center;
+}
+
  /* ------------------------
 KNOW US 
 --------------------------*/
@@ -597,7 +601,7 @@ KNOW US
 
  @media only screen and (min-width: 1480px) {
      .img_3 {
-         margin-left: -170px;
+         margin-left: -90px;
      }
  }
 

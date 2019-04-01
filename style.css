@@ -10,47 +10,6 @@
      src: url(font/CormorantGaramond-Bold.ttf);
      font-weight: bold;
  }
-
- @font-face {
-     font-family: BodoniBold;
-     /*src: url(font/Bodoni SvtyTwo ITC TT Bold.otf);*/
-     src: url(font/bodonisvtytwoitcttbold.ttf);
-     font-weight: bold;
- }
-
-
- @font-face {
-     font-family: Butler;
-     /*src: url(font/ButlerRegular.otf);*/
-     src: url(font/butlerregular.ttf);
- }
-
- @font-face {
-     font-family: ButlerMed;
-     /*src: url(font/ButlerMedium.otf);*/
-     src: url(font/butlermedium.ttf);
- }
-
-
- @font-face {
-     font-family: AvenirLight;
-     src: url(font/AvenirLight.ttf);
-     /*src: url(font/avenirlight.otf);*/
- }
-
- @font-face {
-     font-family: AvenirMed;
-     src: url(font/AvenirMedium.ttf);
-     /*src: url(font/avenirmedium.otf);*/
- }
-
- @font-face {
-     font-family: Poppins;
-     src: url(font/Poppins-SemiBold.ttf);
-     /*src: url(font/poppinssemibold.otf);*/
-     font-weight: bold;
- }
-
  /************
 FUTURA
 ----------------*/
@@ -76,7 +35,6 @@ FUTURA
  @font-face {
      font-family: Futura-PT-Heavy;
      src: url(font/futura-pt-heavy.otf);
-
  }
 
 
@@ -461,7 +419,7 @@ KNOW US
  }
 
  #know_us h1 {
-     font-family: ButlerMed;
+     font-family: CGmed;
      font-size: 25px;
      font-weight: 500;
      font-style: normal;
@@ -470,6 +428,7 @@ KNOW US
      letter-spacing: 1px;
      text-align: center;
      color: #000000;
+     text-transform: none;
  }
  
 
@@ -485,9 +444,11 @@ KNOW US
      text-align: center;
      color: #000000;
  }
-
+#footer .re_p {
+    width: 145px;
+}
  #know_us span {
-     font-family: Futura ;
+     font-family: FuturaMed ;
      font-weight: 900;
  }
 
@@ -536,7 +497,7 @@ KNOW US
  }
 
  #footer h5 {
-     font-family: AvenirMed;
+     font-family: FuturaMed;
      font-size: 15px;
      font-weight: 500;
      font-style: normal;
@@ -569,7 +530,7 @@ KNOW US
 
  #footer p {
 
-     font-family: AvenirLight;
+     font-family: FuturaPT;
      font-size: 14px;
      font-weight: 300;
      font-style: normal;

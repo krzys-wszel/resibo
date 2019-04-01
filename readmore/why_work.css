@@ -213,9 +213,11 @@ h3 {
 
  
 
-.foto1 {
-    text-align: left;
+.foto1 , .foto3 {
+    text-align: right;
 }
+.foto2 {
+text-align: left}
 
 .text1 {
     text-align: left;

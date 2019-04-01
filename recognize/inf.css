@@ -1,5 +1,5 @@
 main {
-    margin-top: 150px;
+    margin-top: 220px;
     text-align: -webkit-center;
 }
 
@@ -41,10 +41,8 @@ h1 {
 
 .arrow {
     position: relative;
-    left: -40%;
-    top: 2%;
-    bottom: 32%;
-    top: 120px;
+    left: -44%;
+    top: 160px;
 }
 
 #gallery img {

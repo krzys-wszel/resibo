@@ -2,11 +2,11 @@ body {
     width: 100%;
 }
 .content {
-    width: 100%;
-    height: 600px;
-   /* background: url(img/re1.jpg)no-repeat;*/
-    margin-top: 150px;
-    margin-bottom: 120px;
+   width: 100%;
+    height: 659px;
+    /* background: url(img/re1.jpg)no-repeat; */
+    margin-top: 171px;
+    /* margin-bottom: 120px; */
     position: relative;
 }
 
@@ -97,13 +97,14 @@ font-family: FuturaMed;
 
 
 .arrow {
-    position: relative;
-    top: -150px;
-    left: 50px;
-
+   position: relative;
+    /* top: -150px; */
+    /* left: 50px; */
+    top: 58px;
 }
 .text {
         text-align: -webkit-center;
+        margin-top: 140px;
 }
 .text h2 {
 max-width: 900px;

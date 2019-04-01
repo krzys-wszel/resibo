@@ -1,5 +1,5 @@
 main {
-    margin-top: 150px;
+    margin-top: 220px;
     text-align: -webkit-center;
 }
 
@@ -22,7 +22,7 @@ h1 {
 .top_foto {
     max-width: 1240px;
     max-height: 827px;
-    margin: 150px auto;
+    margin: 30px auto;
 }
 
 
@@ -197,7 +197,7 @@ h1 {
 }
 
 #slider {
-    margin-top: 100px;
+    margin-top: 272px;
 }
 
 #slider img {
@@ -218,7 +218,7 @@ h1 {
     color: #000000;
     text-transform: none;
     position: relative;
-    top: -20px;
+    top: 150px;
     left: -486px;
 
 }
@@ -496,7 +496,7 @@ div.slider > div:not(.nav_indicators):not(.next_button):not(.prev_button) {
     }
 
     .h1_slider {
-        top: 34px;
+        top: 185px;
         left: -85px;
     }
 

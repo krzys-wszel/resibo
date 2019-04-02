@@ -1,20 +1,16 @@
 .content {
-
     padding-top: 110px;
     margin-left: 50px;
-
     max-width: 770px;
     max-height: 790px;
 }
-
 .sticky {
     position: fixed;
     margin-top: -100px;
 margin-left: -40px;
 }
 
-.foto1 {
-     
+.foto1 {     
 }
 
 .foto1 img {

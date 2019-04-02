@@ -25,11 +25,11 @@
         <img class="burger_white" src="../img/burger_white.svg">
     </a>
 
-   <ul class="menu">
+    <ul class="menu">
         <img class="bitmap" src="../img/bitmap_white.png">
-        <li><a  class="l" href="../recognize/re.cognize.html">re.cognize</a></li>
+        <li><a class="l" href="../recognize/re.cognize.html">re.cognize</a></li>
         <li><a class="l" href="../readmore/read_more.html">re.garding us</a></li>
-        <li><a class="l"  href="../revolutionary/revolutionary.html">re.volution products</a></li>
+        <li><a class="l" href="../revolutionary/revolutionary.html">re.volution products</a></li>
         <li><a class="l" href="reach_us.html">re.ach us!</a></li>
         <div class="nav_icon">
             <div>
@@ -37,7 +37,7 @@
                 <p class="burger_p_2">instagram</p>
 
             </div>
-          <div>
+            <div>
                 <a href="https://www.facebook.com/resiboPL/"> <img src="../img/facebook.svg"></a>
                 <p class="burger_p_1">facebook</p>
             </div>
@@ -51,51 +51,73 @@
 
 
     <main role="main">
-        
+
         <h1>WHERE CAN YOU FIND US<span>?</span></h1>
         <div class="container text">
             <p>Germany, Japan, Australia, Chile, Italy</p>
-            </div> 
-            
-            <section id="gallery">
-           
-          
-         <div class="container-fluid">
+        </div>
 
-<img src="../img/mapa%20%C5%9Bwiat.svg" class="img-fluid">
-               <div class="Japan_box">
-               <img src="../img/japan.jpg" class="img-fluid japan">
-                <h1 class="japan_text">Japan</h1>
+        <section id="gallery">
+
+
+            <div class="container-fluid">
+
+                <img src="../img/mapa%20%C5%9Bwiat.svg" class="img_fluid">
+                <div class="japan_box">
+                    <img src="../img/japan.jpg" style="max-width: 400px;
+    height: 300px;">
+                    <h1 class="japan_text">Japan</h1>
                 </div>
-                 </div>
-                          <a class="arrow" href="reach_us.html"> <img src=../img/button_arrow.svg> </a>
-                </section>
 
+                <div class="italy_box">
+                    <img src="../img/italy.jpg" style="max-width: 400px;
+    height: 300px;">
+                    <h1 class="italy_text">Italy</h1>
+                </div>
 
+                <div class="australia_box">
+                    <img src="../img/australia.jpg" style="max-width: 400px;
+    height: 300px;">
+                    <h1 class="australia_text">Australia</h1>
+                </div>
 
+                <div class="chile_box">
+                    <img src="../img/chile.jpg" style="max-width: 400px;
+    height: 300px;">
+                    <h1 class="chile_text">Chile</h1>
+                </div>
 
+                <div class="germany_box">
+                    <img src="../img/germany.jpg" style="max-width: 400px;
+    height: 300px;">
+                    <h1 class="germany_text">Germany</h1>
+                </div>
 
+                <div class="map">
+                    <img src="../img/australia_map.svg" class="australia">
+                    <img src="../img/germany_map.svg" class="germany">
+                    <img src="../img/italy_map.svg" class="italy">
+                    <img src="../img/chile_map.svg" class="chile">
+                    <img src="../img/japan_map.svg" class="japan">
 
-
-
-
-
-                <section id="know_us">
-                    <div class="container">
-                        <h1>Get know us better!</h1>
-                        <div class="form-group">
-                            <input type="text" class="form-control" id="usr">
-                            <img src="../img/go.svg">
-                        </div>
-
-                        <h2>Would you like to see Resibo on your shelves? Leave your<br> e-mail address and <span>#ResiboExportTeam</span> will contact you <br>within the next week!</h2>
+                </div>
+            </div>
+            <a class="arrow" href="reach_us.html"> <img src=../img/button_arrow.svg> </a> </section> <section id="know_us">
+                <div class="container">
+                    <h1>Get know us better!</h1>
+                    <div class="form-group">
+                        <input type="text" class="form-control" id="usr">
+                        <img src="../img/go.svg">
                     </div>
 
-              
-                </section>
+                    <h2>Would you like to see Resibo on your shelves? Leave your<br> e-mail address and <span>#ResiboExportTeam</span> will contact you <br>within the next week!</h2>
+                </div>
 
 
-                  <section id="footer">
+        </section>
+
+
+        <section id="footer">
             <div class="line"></div>
             <div class="container-fluid">
                 <div class="row">
@@ -108,7 +130,7 @@
                             <p>re.garding us</p>
                         </a>
                         <a href="revolutionary/revolutionary.html">
-                            <p class="re_p" >re.volution products</p>
+                            <p class="re_p">re.volution products</p>
                         </a>
                         <a href="reachus/reach_us.html">
                             <p>re.ach us!</p>
@@ -173,6 +195,103 @@
         });
 
     </script>
+    <script>
+        var x = window.matchMedia("(min-width: 1230px)")
+        myFunction(x)
+        x.addListener(myFunction)
+
+        function myFunction(x) {
+            if (x.matches) {
+                $('.australia').on('mouseenter', function() {
+                    $('.australia_box').show();
+
+                })
+                $('.australia').on('mouseleave', function() {
+                    $('.australia_box').hide();
+
+                })
+            }
+        }
+
+    </script>
+    <script>
+        var x = window.matchMedia("(min-width: 1230px)")
+        myFunction(x)
+        x.addListener(myFunction)
+
+        function myFunction(x) {
+            if (x.matches) {
+                $('.chile').on('mouseenter', function() {
+                    $('.chile_box').show();
+
+                })
+                $('.chile').on('mouseleave', function() {
+                    $('.chile_box').hide();
+
+                })
+            }
+        }
+
+    </script>
+
+    <script>
+        var x = window.matchMedia("(min-width: 1230px)")
+        myFunction(x)
+        x.addListener(myFunction)
+
+        function myFunction(x) {
+            if (x.matches) {
+                $('.germany').on('mouseenter', function() {
+                    $('.germany_box').show();
+
+                })
+                $('.germany').on('mouseleave', function() {
+                    $('.germany_box').hide();
+
+                })
+            }
+        }
+
+    </script>
+    <script>
+        var x = window.matchMedia("(min-width: 1230px)")
+        myFunction(x)
+        x.addListener(myFunction)
+
+        function myFunction(x) {
+            if (x.matches) {
+                $('.japan').on('mouseenter', function() {
+                    $('.japan_box').show();
+
+                })
+                $('.japan').on('mouseleave', function() {
+                    $('.japan_box').hide();
+
+                })
+            }
+        }
+
+    </script>
+    <script>
+        var x = window.matchMedia("(min-width: 1230px)")
+        myFunction(x)
+        x.addListener(myFunction)
+
+        function myFunction(x) {
+            if (x.matches) {
+                $('.italy').on('mouseenter', function() {
+                    $('.italy_box').show();
+
+                })
+                $('.italy').on('mouseleave', function() {
+                    $('.italy_box').hide();
+
+                })
+            }
+        }
+
+    </script>
+
 
 </body>
 

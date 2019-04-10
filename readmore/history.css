@@ -3,11 +3,12 @@
     margin-left: 50px;
     max-width: 770px;
     max-height: 790px;
+    position: absolute;
 }
 .sticky {
     position: fixed;
-    margin-top: -100px;
-margin-left: -40px;
+    /*margin-top: -100px;
+margin-left: -40px;*/
 }
 
 .foto1 {     
@@ -343,7 +344,7 @@ margin-left: -40px;
 
 
 
-@media only screen and (max-width: 1500px) {
+@media only screen and (min-width: 1440px) {
     .ewelina {
         right: -92px;
     }

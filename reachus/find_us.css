@@ -52,10 +52,10 @@ h1 {
 
 
 .arrow {
-    position: absolute;
-    /* margin-top: -50px; */
+      
+        position: absolute;
     left: 10%;
-    top: 45%;
+    top: 70%;
 }
 
 #gallery .img_fluid {
@@ -146,16 +146,5 @@ h1 {
     #know_us {
         padding-top: 250px;
     }
-
-    /* .japan {
-    max-width: 200px;
-    max-height: 274px;
-    position: absolute;
-    /* display: initial; */
-    /* left: -50%; */
-    /* right: 50%;
-    transform: translateX(50%);
-    top: 60%;
-        opacity: 0.5
-    }*/
+ 
 }

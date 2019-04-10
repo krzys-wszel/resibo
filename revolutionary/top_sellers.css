@@ -84,6 +84,7 @@ h1 {
     max-width: 350px;
     margin: 0px 50px;
 }
+ 
 @media only screen and (min-width: 1200px){
     #fotos {
 	margin-top: 100px;

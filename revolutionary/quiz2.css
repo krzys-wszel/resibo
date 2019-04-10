@@ -98,8 +98,70 @@ main h1 span {
     margin-top: 35px;
 }
 
+.button {
+	top: 80%;
+    background: black;
+}
+.secondary {
+    position: absolute;
+    left: 30%;
+}
+
+ol {
+        list-style-type: /*upper-alpha*/ none;
+    text-align: -webkit-left;
+}
+
+ 
+input {
+    margin-right: 50px;
+}
+input
+h3 {
+     
+  width: 531px;
+  height: 27px;
+  font-family: AvenirMed;
+  font-size: 20px;
+  font-weight: 500;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #000000;
+        text-align: -webkit-left;
+    margin-bottom: 100px;
+}
+ 
 
 
+
+
+
+
+
+
+
+
+
+
+#app {
+	min-height: 100vh;
+
+	 
+}
+
+
+
+h1 {
+	margin-bottom: 20px;
+}
+
+[v-cloak] {
+  display: none;
+}
+
+ 
 
 
 @media only screen and (min-width: 1200px) {

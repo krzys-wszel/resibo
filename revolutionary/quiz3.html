@@ -15,7 +15,10 @@
 
     <!-- Place your stylesheet here-->
     <link href="../style.css" rel="stylesheet" type="text/css">
+
     <link href="quiz2.css" rel="stylesheet" type="text/css">
+
+    <!--<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/foundation/6.2.3/foundation.min.css">-->
 </head>
 
 <body>
@@ -57,7 +60,7 @@
 
         <section id="question">
             <div class="container-fluid" style="max-width: 1340px;">
-             <div class="row">
+                <div class="row">
 
                     <div class="oval_small">
                         <a href="quiz2.html"><img src="../img/maly_oval_grey.svg"></a>
@@ -75,60 +78,222 @@
                     <div class="oval_small">
                         <a href="quiz6.html"><img src="../img/maly_oval_grey.svg"></a>
                     </div>
-            </div>
-            <div class="row">
-                <div class="q_1">
-                    <h1>How you moisturizing your skin? Chose the type of product you like the most</h1>
-                    <p> a) Oils</p>
-                    <p> b) Serums</p>
-                    <p> c) Lighter creams </p>
-                    <p> d) Thicker creams</p>
-
                 </div>
 
             </div>
+   <div id="app" v-cloak>
 
-            <a href="quiz2.html">
-                <div class="prev"><img src="../img/long_arrow.svg"> </div>
-            </a>
-               <a href="quiz3.html">
-                <div class="next"><img src="../img/long_arrow.svg"> </div>
-            </a>
+            <div class="row">
+                <div class="large-12 columns">
+                    <h1>{{ quiz.title }}</h1>
+
+                    <div class="callout">
+
+                        <div v-for="(question, index) in quiz.questions">
+                            <!-- Hide all questions, show only the one with index === to current question index -->
+                            <div v-show="index === questionIndex">
+                                <h3>{{ question.text }}</h3>
+                                <ol>
+                                    <!-- for each response of the current question -->
+                                    <li v-for="response in question.responses">
+                                        <label>
+                                            <input type="radio" v-bind:value="response.value" v-bind:name="index" v-model="userResponses[index]"> {{response.text}}
+                                        </label>
+                                    </li>
+
+                                </ol>
+                                <!-- The two navigation buttons -->
+                                <!-- Note: prev is hidden on first question -->
+                                <button class="secondary button" v-if="questionIndex > 0" v-on:click="prev">
+                                    prev
+                                </button>
+                                <button class="success button" v-on:click="next">
+                                    next
+                                </button>
+                            </div>
+                        </div>
+
+                        <!-- Last page, quiz is finished, display result -->
+                        <div v-show="questionIndex === quiz.questions.length">
+                            <h3>Your Results</h3>
+                            <p>
+                                You are: {{ score() }}
+                            </p>
+                        </div>
+
+                    </div>
+
+                </div>
             </div>
+
+        </div>
+            
+
         </section>
+
+
+      
+
+
+
+
+
 
 
 
 
 
     </main><!-- /.container -->
-
-
-    <!-- Bootstrap core JavaScript
-    ================================================== -->
-    <!-- Placed at the end of the document so the pages load faster -->
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js" integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut" crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js" integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k" crossorigin="anonymous"></script>
-    <script>
-        $(function() {
-            var flag = 0;
-            $('.menu-icon').on('click', function(e) {
-                e.preventDefault();
-                if (flag == 0) {
-                    $('.menu-icon').addClass("active");
-                    $('.menu').addClass('visible');
-                    flag = 1;
-                } else {
-                    $('.menu-icon').removeClass("active");
-                    $('.menu').removeClass('visible');
-                    flag = 0;
-                }
-            });
-        });
-
-    </script>
-
 </body>
+
+<!-- Bootstrap core JavaScript
+    ================================================== -->
+<!-- Placed at the end of the document so the pages load faster -->
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js" integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js" integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k" crossorigin="anonymous"></script>
+<script src="https://unpkg.com/vue/dist/vue.js"></script>
+
+<script>
+    $(function() {
+        var flag = 0;
+        $('.menu-icon').on('click', function(e) {
+            e.preventDefault();
+            if (flag == 0) {
+                $('.menu-icon').addClass("active");
+                $('.menu').addClass('visible');
+                flag = 1;
+            } else {
+                $('.menu-icon').removeClass("active");
+                $('.menu').removeClass('visible');
+                flag = 0;
+            }
+        });
+    });
+
+</script>
+
+<script>
+    "use strict";
+
+    window.onload = function() {
+        var quiz = {
+            questions: [{
+                    text: "Your skin does not have as the same age as you in your ID choose your age that we could match skincare just for you. Keep up with appropriate quantity of active ingredients:",
+                    responses: [{
+                            text: '20`s',
+                        value: 'Superman'
+                        },
+                        {
+                            text: '30`s',
+                            value: 'Superman'
+                        },
+                        {
+                            text: '40`s', 
+                            value: 'Superman'
+                        },
+                                 {
+                            text: '50`s',
+                                     value: 'Superman'
+                                                     }
+                    ]
+                },
+                {
+                    text: "Where do you spend the most of time?",
+                    responses: [{
+                            text: 'In a big city',                          value: 'Superman'  
+                        },
+                        {
+                            text: 'Out of town',                           value: 'Superman'  
+                        },
+                        {
+                            text: 'Inside closed spaces ',
+                            value: 'Superman' 
+                        },
+                                {
+                            text: 'On the fresh air',
+                            value: 'Superman' 
+                        }
+                    ]
+                },
+                {
+                    text: "Who would you most hang around with?",
+                    responses: [{
+                            text: 'Wonder Woman',
+                            value: 'Superman'
+                        },
+                        {
+                            text: 'Green Arrow',
+                            value: 'The Flash'
+                        },
+                        {
+                            text: 'Robin',
+                            value: 'Batman'
+                        }
+                    ]
+                },
+                {
+                    text: "What's your favourite colour?",
+                    responses: [{
+                            text: 'Black',
+                            value: 'Batman'
+                        },
+                        {
+                            text: 'Red',
+                            value: 'The Flash'
+                        },
+                        {
+                            text: 'Blue',
+                            value: 'Superman'
+                        }
+                    ]
+                },
+          
+            ]
+        };
+
+
+        var app = new Vue({
+            el: '#app',
+            data: {
+                quiz: quiz,
+                questionIndex: 0,
+                userResponses: Array()
+            },
+            methods: {
+                // Go to next question
+                next: function() {
+                    this.questionIndex++;
+                    console.log(this.userResponses);
+                },
+                // Go to previous question
+                prev: function() {
+                    this.questionIndex--;
+                },
+                score: function() {
+                    //find the highest occurence in responses
+                    var modeMap = {};
+                    var maxEl = this.userResponses[0],
+                        maxCount = 1;
+                    for (var i = 0; i < this.userResponses.length; i++) {
+                        var el = this.userResponses[i];
+                        if (modeMap[el] == null)
+                            modeMap[el] = 1;
+                        else
+                            modeMap[el]++;
+                        if (modeMap[el] > maxCount) {
+                            maxEl = el;
+                            maxCount = modeMap[el];
+                        }
+                    }
+                    return maxEl;
+                }
+            }
+        });
+    }
+
+</script>
+
+
 
 </html>

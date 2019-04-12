@@ -497,11 +497,11 @@ div.slider > div:not(.nav_indicators):not(.next_button):not(.prev_button) {
 
     .h1_slider {
         top: 185px;
-        left: -85px;
+        left: -19%;
     }
 
     .h1_slider3 {
-        left: -28%;
+        left: -19%;
         top: 175px;
     }
 
@@ -555,6 +555,7 @@ div.slider > div:not(.nav_indicators):not(.next_button):not(.prev_button) {
 }
 
 @media only screen and (max-width: 767px) {
+ 
     .opis {
         max-width: 143px;
     }

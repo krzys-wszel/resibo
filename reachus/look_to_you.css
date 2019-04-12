@@ -22,7 +22,7 @@ h1 {
 }
 
 .text p {
-    font-family: ButlerMed;
+    font-family: CGmed;
     font-size: 25px;
     font-weight: 500;
     font-style: normal;
@@ -111,4 +111,32 @@ h1 {
 
 #know_us h1 {
     text-transform: none;
+}
+
+@media only screen and (max-width: 767px) {
+    main {
+        margin-top: 115px;
+    }
+    h1 {
+        font-size: 30px;
+    }
+    .text p {
+        font-size: 20px;
+    }
+    .text {
+            margin-top: -55px;;
+    }
+    #gallery img {
+        height: 360px;
+    }
+    .foto1_p {
+        font-size: 13px;
+    }
+    .foto2 , .foto3 {
+        margin-top: -50px
+    }
+    .container {
+	padding-left: 30px;
+        padding-right: 30px
+}
 }

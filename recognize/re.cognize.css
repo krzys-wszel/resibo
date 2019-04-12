@@ -99,7 +99,8 @@ font-family: FuturaMed;
 
 @media only screen and (max-width: 767px) {
     .content h1 {
-        font-size: 48px;
+        font-size: 30px;
+        top: 10%
     }
     .oval {
         margin: 35px;
@@ -107,6 +108,21 @@ font-family: FuturaMed;
     .arrow {
         top: 113px;
     }
+    .content  {
+	height: 315px;
+         
+}
+    .content .foto1 {
+        height: 100%
+    }
+    .content a {
+        font-size: 16px;
+        top: 29%;
+        left: 0%
+    }
+    .arrow {
+	display: none
+}
 }
 
 

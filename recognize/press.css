@@ -111,6 +111,7 @@ h1 {
 .foto6 {
 	padding-top: 128px;
     margin: 0 auto;
+    max-width: 420px;
 }
 
 
@@ -138,14 +139,41 @@ h1 {
 
 
 @media only screen and (max-width: 767px){
+    .container_gallery {
+        padding-right: 54px;
+        padding-left: 54px;
+    }
+    .p_1 , .p_2 , .p_3 {
+        display: none
+    }
+    #gallery {
+        margin-top: -130px
+    }
+    #foto {
+        margin-top: 325px;
+    }
+    h1 {
+        font-size: 30px
+    }
+    main {
+        margin-top: 115px;
+    }
+    .arrow {
+	display: none
+}
     .text p {
-        font-size: 16px;
+        font-size: 20px;
     }
     .foto5 , .foto6 {
         padding-top: 0px;
     }
     .foto4 , .foto5 , .foto6 {
         max-width: 400px;
+    }
+    #know_us h2 {
+        font-size: 13px;
+        padding-left: 50px;
+        padding-right: 50px;
     }
 }
 

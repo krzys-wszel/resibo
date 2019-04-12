@@ -25,12 +25,12 @@
         <img class="burger_white" src="../img/burger_white.svg">
     </a>
 
-     <ul class="menu">
+    <ul class="menu">
         <img class="bitmap" src="../img/bitmap_white.png">
-        <li><a  class="l" href="../recognize/re.cognize.html">re.cognize</a></li>
-        <li><a class="l" href="../readmore/read_more.html">re.garding us</a></li>
-        <li><a class="l"  href="../revolutionary/revolutionary.html">re.volution products</a></li>
-        <li><a class="l" href="../reachus/reach_us.html">re.ach us!</a></li>
+        <li><a  class="l" href="../index.html">home</a></li>
+        <li><a class="l" href="readmore/read_more.html">re.ad more about us</a></li>
+        <li><a class="l"  href="revolutionary/revolutionary.html">re.volutionary products</a></li>
+        <li><a class="l" href="reachus/reach_us.html">re.ach us!</a></li>
         <div class="nav_icon">
             <div>
                 <a href="https://www.instagram.com/resibobynature/"> <img src="../img/instagram.svg" class="instagram"> </a>
@@ -53,7 +53,8 @@
     <main role="main">
        <section id="box">
         <div class="container-fluid">
-            <div class="content">
+            <div class="col-sm-12">
+               <div class="content">
                 <!--  <img class="foto1" src="img/recognize1.png">-->
                 <img class="foto1" src="../img/re1.jpg">              
                     <img class="foto2 img-fluid" src="../img/recognize1.png">
@@ -61,13 +62,13 @@
                     <img class="foto4 img-fluid" src="../img/top_sellers.jpg">
                 <h1 class="h1">re<span>.</span>cognize us</h1>
                 
-                <a class="link1  " href="awards.html"> OUR AWARDS </a>
-                <a class="link2  " href="press.html"> PRESS ABOUT US </a>
-                <a class="link3  " href="inf.html">INFLUENCERS LOVE US</a>
+                <a class="link1 l " href="awards.html"> OUR AWARDS </a>
+                <a class="link2  l" href="press.html"> PRESS ABOUT US </a>
+                <a class="link3  l" href="inf.html">INFLUENCERS LOVE US</a>
                 <a href="../index.html"> <img class="arrow" src="../img/button_arrow.svg"></a>
          
             </div>
-
+</div>
         </div>
 
 </section>
@@ -77,7 +78,8 @@
                 <h1>Get know us better!</h1>
                 <div class="form-group">
                     <input type="text" class="form-control" id="usr">
-                    <img src="../img/go.svg">
+                    <img src="../img/go.svg" style="position: absolute;
+    padding-left: 10px;">
                 </div>
 
                 <h2>Get to know us! Leave your e-mail address to receive more info from <br><span>#ResiboTeam</span> in the following weeks!</h2>
@@ -189,6 +191,12 @@
 
     </script>
       <script>
+              var x = window.matchMedia("(min-width: 1200px)")
+        myFunction(x)
+        x.addListener(myFunction)
+
+        function myFunction(x) {
+            if (x.matches) { 
         $('.link1').on('mouseenter', function() {
             $('.foto1').hide();
             $('.foto2').show();
@@ -203,8 +211,16 @@
          $("a").css('color', 'white');
 
         })
+            }
+        }
     </script>
     <script>
+            var x = window.matchMedia("(min-width: 1200px)")
+        myFunction(x)
+        x.addListener(myFunction)
+
+        function myFunction(x) {
+            if (x.matches) { 
         $('.link2').on('mouseenter', function() {
             $('.foto1').hide();
             $('.foto3').show();
@@ -217,8 +233,16 @@
             $('.h1').css('color', 'white');
             $("a").css('color', 'white');
         })
+            }
+        }
     </script>
     <script>
+            var x = window.matchMedia("(min-width: 1200px)")
+        myFunction(x)
+        x.addListener(myFunction)
+
+        function myFunction(x) {
+            if (x.matches) { 
         $('.link3').on('mouseenter', function() {
             $('.foto1').hide();
             $('.foto4').show();
@@ -232,6 +256,8 @@
             $("a").css('color', 'white');
 
         })
+            }
+        }
     </script>
 
 </body>

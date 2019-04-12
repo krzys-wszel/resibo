@@ -275,8 +275,8 @@ h1 {
     }
 
     .foto1 img {
-        max-height: 400px;
-        max-width: 400px;
+        height: 360px;
+        max-width: 315px;
     }
 
     .foto2 {
@@ -285,8 +285,8 @@ h1 {
     }
 
     .foto2 img {
-        max-height: 400px;
-        max-width: 400px;
+        height: 360px;
+        max-width: 315px;
     }
 
     .foto3 {
@@ -295,8 +295,8 @@ h1 {
     }
 
     .foto3 img {
-        max-height: 400px;
-        max-width: 400px;
+       height: 360px;
+        max-width: 315px;
         margin-top: 0px;
     }
 
@@ -306,8 +306,8 @@ h1 {
     }
 
     .foto4 img {
-        max-height: 400px;
-        max-width: 400px;
+        height: 360px;
+        max-width: 315px;
         margin-top: 0px;
     }
 
@@ -317,8 +317,8 @@ h1 {
     }
 
     .foto5 img {
-        max-height: 400px;
-        max-width: 400px;
+        height: 360px;
+        max-width: 315px;
         margin-top: 0px;
     }
 
@@ -328,7 +328,23 @@ h1 {
     }
 
     .foto6 img {
-        max-height: 400px;
-        max-width: 400px;
+        height: 360px;
+        max-width: 315px;
     }
+}
+@media only screen and (max-width: 767px){
+.arrow {
+	display: none
+}
+    main {
+        margin-top: 115px;
+       
+    }
+    h1 {
+        font-size: 30px;       
+    }
+    .text {
+	margin-top: -55px;
+        margin-bottom: 125px;
+}
 }

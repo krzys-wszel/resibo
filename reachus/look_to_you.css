@@ -1,5 +1,5 @@
 main {
-    margin-top: 150px;
+    margin-top: 220px;
     text-align: -webkit-center;
 }
 
@@ -21,6 +21,9 @@ h1 {
     text-transform: lowercase;
 }
 
+.drugi , .trzeci {
+    margin-top: 42px;
+}
 .text p {
     font-family: CGmed;
     font-size: 25px;
@@ -71,13 +74,13 @@ h1 {
 
 .foto1_p {
     font-family: FuturaMed;
-    font-size: 25px;
-    font-weight: 500;
-    font-style: normal;
-    font-stretch: normal;
-    line-height: normal;
-    letter-spacing: 0.7px;
-    color: #000000;
+  font-size: 15px;
+  font-weight: 500;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: 0.4px;
+  color: #000000;
     position: absolute;
     margin-top: 20px;
 
@@ -138,5 +141,14 @@ h1 {
     .container {
 	padding-left: 30px;
         padding-right: 30px
+}
+    .arrow {
+	display: none
+}
+    .foto1 {
+        margin-top: 260px;
+    }
+    .drugi , .trzeci {
+	margin-top:  -7px;
 }
 }

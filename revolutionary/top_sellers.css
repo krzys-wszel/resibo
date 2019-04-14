@@ -18,64 +18,129 @@ h1 {
     color: #000000;
     text-transform: lowercase;
 }
+
 .top_foto {
-	max-height: 700px;
-       margin-top: 40px;
+    max-height: 700px;
+    margin-top: 40px;
     margin-bottom: 150px;
 }
- 
- 
-.arrow {
-      /* left: -40%; */
-    /* top: 49%; */
-   position: relative;
+.arrow {     
+    position: relative;
     top: 58%;
     left: -38%;
 }
+
+.foto1 {
+        max-width: 350px;
+        height: 370px;
+        background-color: #f5f6fa;
+        margin-bottom: 60px;
+    }
+
+    .foto1 img {
+        object-fit: cover;
+    margin: 50px 66px 60px auto;
+    max-width: 220px;
+    height: 270px;
+
+    }
+
+    .foto2 {
+        max-width: 350px;
+        height: 320px;
+        background-color: #f5f6fa;
+    }
+
+    .foto2 img {
+        object-fit: cover;
+   margin: 0px auto 60px 60px;
+    max-width: 220px;
+    height: 270px;
+    }
+
+    .foto3 {
+        max-width: 350px;
+        height: 320px;
+        background-color: #f5f6fa;
+        margin-top: 202px;
+        margin-bottom: 60px;
+    }
+
+   .foto3 img {
+        object-fit: cover;
+    margin: 30px 70px 30px auto;
+    max-width: 220px;
+    height: 270px;
+    }
+
+    .foto4 {
+        max-width: 350px;
+        height: 370px;
+        background-color: #f5f6fa;
+        margin-top: 202px;
+    }
+
+    .foto4 img {
+        object-fit: cover;
+    margin: 57px auto 50px 70px;
+    max-width: 220px;
+    height: 270px;
+    }
+
 .col1 {
     text-align: -webkit-right;
 }
+
 .col2 {
     text-align: -webkit-left;
 }
 
-   
- 
- 
-
 #know_us {
-	padding-top: 340px;
+    padding-top: 340px;
 }
 
- 
+
 #fotos .row {
-        justify-content: center;
+    justify-content: center;
 }
 
 #fotos h1 {
     font-family: FuturaMed;
-  font-size: 25px;
-  font-weight: 500;
-  font-style: normal;
-  font-stretch: normal;
-  line-height: normal;
-  letter-spacing: 0.7px;
-  color: #000000;
+    font-size: 25px;
+    font-weight: 500;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: 0.7px;
+    color: #000000;
     text-align: -webkit-left;
     text-transform: none;
 }
-#fotos p {
-     font-family: FuturaPT;
-  font-size: 15px;
-  font-weight: normal;
-  font-style: normal;
-  font-stretch: normal;
-  line-height: 1.67;
-  letter-spacing: 0.4px;
-  color: #000000;
+#fotos h2 {
+    font-family: FuturaMed;
+    font-size: 15px;
+    font-weight: 500;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: 0.7px;
+    color: #000000;
     text-align: -webkit-left;
-     
-  height: 300px;
+    text-transform: none;
+}
+
+#fotos p {
+    font-family: FuturaPT;
+    font-size: 15px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.67;
+    letter-spacing: 0.4px;
+    color: #000000;
+    text-align: -webkit-left;
+
+    height: 300px;
 }
 
 
@@ -84,110 +149,156 @@ h1 {
     max-width: 350px;
     margin: 0px 50px;
 }
- 
-@media only screen and (min-width: 1200px){
+
+@media only screen and (min-width: 1200px) {
     #fotos {
-	margin-top: 100px;
-    
-}
+        margin-top: 100px;
+
+    }
+
     .top_foto .zdj {
         width: 100%;
         height: 700px;
     }
 }
-@media only screen and (max-width: 1200px){
+
+@media only screen and (max-width: 1200px) {
     .arrow {
-	top: 97%;
-}
-}
-@media only screen and (max-width: 977px){
-    #fotos .col-sm-6{
-        margin: 0px 0px;
+        top: 97%;
     }
-    .arrow {
-	top: 94%;
-}
 }
 
-@media only screen and (max-width: 767px){
-    .col1 , .col2 {
+@media only screen and (max-width: 977px) {
+    #fotos .col-sm-6 {
+        margin: 0px 0px;
+    }
+
+    .arrow {
+        top: 94%;
+    }
+}
+
+@media only screen and (max-width: 767px) {
+
+    .col1,
+    .col2 {
         text-align: -webkit-center;
     }
+
     .foto2 {
         margin-top: 190px;
     }
+
+    .arrow {
+        display: none;
+    }
+
+    .row_top_foto {
+        text-align: -webkit-center;
+        justify-content: -webkit-center;
+    }
+
+    h1 {
+        font-size: 30px;
+    }
+
+    main {
+        margin-top: 115px;
+    }
+
+    #foto {
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+
+    .zdj {
+        height: 360px;
+        object-fit: cover;
+        width: 100%;
+    }
+
+    .top_foto {
+
+        margin-top: 70px;
+    }
+
+    #fotos {
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+
+    .foto1 {
+        max-width: 350px;
+        height: 360px;
+        background-color: #f5f6fa;
+        margin-bottom: 60px;
+    }
+
+    .foto1 img {
+        object-fit: cover;
+    margin: 70px auto 80px auto;
+    max-width: 220px;
+    height: 220px;
+
+    }
+
+    .foto2 {
+        max-width: 350px;
+        height: 360px;
+        background-color: #f5f6fa;
+    }
+
+    .foto2 img {
+        object-fit: cover;
+    margin: 50px auto 98px auto;
+    max-width: 220px;
+    height: 220px;
+    }
+
+    .foto3 {
+        max-width: 350px;
+        height: 360px;
+        background-color: #f5f6fa;
+        margin-top: 202px;
+        margin-bottom: 60px;
+    }
+
+    .foto3 img {
+        object-fit: cover;
+    margin: 75px auto 70px auto;
+    max-width: 220px;
+    height: 220px;
+    }
+
+    .foto4 {
+        max-width: 350px;
+        height: 360px;
+        background-color: #f5f6fa;
+        margin-top: 202px;
+    }
+
+    .foto4 img {
+        object-fit: cover;
+    margin: 70px auto 75px auto;
+    max-width: 220px;
+    height: 220px;
+    }
+
+    #fotos h2 {
+        font-family: FuturaPT;
+        font-size: 10px;
+        font-weight: normal;
+        font-style: normal;
+        font-stretch: normal;
+        line-height: 2.75;
+        letter-spacing: 0.2px;
+        text-align: justify;
+        color: #000000;
+    }
+    #fotos h1 {
+        font-size: 20px;
+    }
+    #fotos p {
+        font-size: 13px;
+    }
 }
-
-.foto1{
-      max-width: 350px;
-  height: 370px;
-  background-color: #f5f6fa;
-    margin-bottom: 60px;
-}
-.foto1 img {
-	object-fit: cover;
-      margin: 50px auto 70px auto;
-   max-width: 270px;
-  height: 270px;
-    
-}
- 
-.foto2{
-    max-width: 350px;
-  height: 320px;
-  background-color: #f5f6fa;
-}
-.foto2 img {
-object-fit: cover;
-      margin: -35px auto 46px auto;
-    height: 320px;
-}
-.foto3 {
-    max-width: 350px;
-  height: 320px;
-  background-color: #f5f6fa;
-    margin-top: 202px;
-    margin-bottom: 60px;
-}
-.foto3 img {
-object-fit: cover;
-   margin: 0px auto 30px auto;
-    height: 320px;
-}
-.foto4 {
-      max-width: 350px;
-  height: 370px;
-  background-color: #f5f6fa;
-    margin-top: 202px;
-}
- .foto4 img {
-	object-fit: cover;
-    margin: 11px auto 30px auto;
-    height: 370px;    
-}
- 
-#fotos h2 {
-    font-family: FuturaPT;
-  font-size: 12px;
-  font-weight: normal;
-  font-style: normal;
-  font-stretch: normal;
-  line-height: 2.75;
-  letter-spacing: 0.2px;
-  text-align: justify;
-  color: #000000;
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-

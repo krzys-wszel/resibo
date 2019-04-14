@@ -146,5 +146,22 @@ h1 {
     #know_us {
         padding-top: 250px;
     }
+    main {
+margin-top: 115px;}
+    h1 {
+        font-size: 30px;
+    }
+    .text p {
+font-size: 20px;
+    width: 270px;}
+     
+    .arrow {
+	display: none
+}
+    #know_us {
+	padding-top: 70px;
+}
+      
+    }
  
 }

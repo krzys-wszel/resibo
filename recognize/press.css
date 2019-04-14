@@ -100,21 +100,30 @@ h1 {
 }
 
 .foto4 {
-	padding-top: 200px;
+	padding-top: 150px;
     max-width: 404px;
+    height: 540px;
 }
 
 .foto5 {
-	padding-top: 342px;
-    max-width: 450px;
+	padding-top: 250px;
+    max-width: 404px;
+    height: 484px;
 }
 .foto6 {
 	padding-top: 128px;
     margin: 0 auto;
-    max-width: 420px;
+    max-width: 404px;
 }
-
-
+#gallery {
+     
+}
+.vouge {
+	text-align: -webkit-right;
+}
+.boho {
+	padding-top: 204px;
+}
 
 
 
@@ -169,12 +178,23 @@ h1 {
     }
     .foto4 , .foto5 , .foto6 {
         max-width: 400px;
+        
     }
+    .foto5 {
+	margin-top: 27px;
+}
+    .boho {
+	padding-top: 0px;
+        margin-top: -100px;
+}
     #know_us h2 {
         font-size: 13px;
         padding-left: 50px;
         padding-right: 50px;
     }
+    .vouge {
+    text-align: -webkit-center;
+    padding-top: 50px;
 }
 
 

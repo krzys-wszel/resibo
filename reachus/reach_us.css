@@ -104,4 +104,61 @@ top: 35%;
 #know_us {
 	padding-top: 0px;
 }
+
+@media only screen and (max-width: 767px){
+    #box h1 {
+        font-size: 30px;
+        top: 20%;
+    left: 15%;
+        
+    }
+    .text h2 {
+        font-size: 16px;
+        margin-top: -90px;
+    }
+    .content .foto1 {
+        height: 315px;
+    }
+    .arrow {
+	display: none
+}
+    .content {
+	height: 330px;
+}
+    .content a {
+        font-size: 16px;
+        top: 30%;
+    left: 0%;
+    }
+    .container-fluid {
+	padding-left: 30px;
+        padding-right: 30px;
+}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
  

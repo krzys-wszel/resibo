@@ -66,7 +66,7 @@ h1 {
 
 h2 {
 
-    font-family: FuturaMed;
+   /* font-family: FuturaMed;*/
     font-size: 25px;
     font-weight: 500;
     font-style: normal;
@@ -93,7 +93,7 @@ h2 {
 h3 {
     max-width: 840px;
     height: 200px;
-    font-family: FuturaMed;
+   /* font-family: FuturaMed;*/
     font-size: 25px;
     font-weight: 500;
     font-style: normal;
@@ -284,18 +284,35 @@ text-align: left}
 @media only screen and (max-width: 767px) {
     .napis {
     max-width: 307px;
+        position: relative;
+        top: -350px;
 }
+    .container_text {
+	position: relative;
+        top: -350px;
+}
+    
     .col-md-2 {
         display: block;
     }
 
     #fotos h1 {
-        text-align: -webkit-center;
+        text-align: -webkit-left;
+        top: 0
     }
 
     .text1 {
-        text-align: -webkit-center;
-    }
+        text-align: -webkit-left;
+        
+    top: -420px;
+    position: relative;
+}
+    .foto1 {
+    text-align: right;
+    position: relative;
+    top: -420px;
+}
+    
 
     #fotos p {
         font-size: 14px;
@@ -305,10 +322,10 @@ text-align: left}
         margin-top: -20px;
     }
     #fotos .text2 h1 {
-        text-align: -webkit-center;
+        text-align: -webkit-left;
     }
     .col_text_2 {
-	text-align: -webkit-center;
+	text-align: -webkit-left;
 }
     .love {
 	margin-top: 0px;
@@ -323,23 +340,134 @@ text-align: left}
         font-size: 15px;
         letter-spacing: 23px;
     }
+    main {
+        margin-top: 115px;
+    }
+    h1 {
+        font-size: 30px;
+        top: 420px;
+    position: relative;
+    }
+    .arrow {
+	display: none
 }
-
-@media only screen and (max-width: 576px) {
-    .love,
-.friendship,
+    #foto {
+	padding-left: 30px;
+        padding-right: 30px;
+        margin-top: -195px;
+}
+    .friendship {
+	width: 204px;
+  height: 50px; 
+  font-size: 20px;
+  font-weight: 500;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 2.5;
+  letter-spacing: 10px;
+  text-align: center;
+  color: #000000;
+}
     .magic {
-        font-size: 15px;
-        letter-spacing: 23px;
-    }
-    .l_o_v_e {
-        max-width: 100%;
-        margin-top: 25px;
-        
-    }
+	width: 200px;
+  height: 50px;
+    font-size: 20px;
+  font-weight: 500;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 2.5;
+  letter-spacing: 10px;
+  text-align: right;
+  color: #000000;
+}
+    .love {
+	width: 200px;
+  height: 50px;
+    font-size: 20px;
+  font-weight: 500;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 2.5;
+  letter-spacing: 10px;
+  color: #000000;
 }
 
+    #foto img {
+        width: 315px;
+        height: 360px;
+    }
+    h2 {
+        width: 315px;
+  height: 100px;  
+  font-size: 20px;
+  font-weight: 500;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 2.5;
+  letter-spacing: 10px;
+  text-align: center;
+  color: #000000;
+    }
+    .leaf {
+    width: 80px;
+    height: 72px;
+}
+    .row_1 {
+	margin-top: -100px;
+}
+    .row_2 {
+	margin-top: -100px
+}
+    .vegan {
+   
+  font-family: FuturaPT;
+  font-size: 10px;
+  font-weight: 500;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.6;
+  letter-spacing: 0.3px;
+  text-align: center;
+  color: #000000;
+        text-transform: uppercase;
+        margin-top: 30px;
+}
+    h3 {
+  font-size: 20px;
+  font-weight: 500;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 2.5;
+  letter-spacing: 10px;
+  text-align: center;
+  color: #000000;
+    margin-top: 50px;}
+    #fotos .container-fluid {
+    padding-left: 30px;
+    padding-right: 30px;
+}
+    .foto1 img , .foto2 img , .foto3 img {
+        height: 360px;
+    }
+    #fotos {
+        margin-top: 400px;
+    }
+    .foto2 {
+        position: relative;
+    top: -740px;
+    }
+    #fotos .text2 h1 {
+    position: relative;
+    text-align: -webkit-left;
+    padding-left: 30px;
+}
+     .foto3 {
+     
+    position: relative;
+    top: -420px;
+}
 
+}
 
 
 

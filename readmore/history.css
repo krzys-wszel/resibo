@@ -9,6 +9,7 @@
     position: fixed;
     /*margin-top: -100px;
 margin-left: -40px;*/
+    max-width: 50%
 }
 
  
@@ -262,6 +263,33 @@ margin-left: -40px;*/
     text-align: -webkit-center;
 }
 
+@media only screen and (min-width: 1440px) {
+    .ewelina {
+        right: -92px;
+    }
+
+    #box h2 {
+        right: -100px;
+    }
+}
+
+@media only screen and (max-width: 1439px) {
+    #box h2 {
+        display: block;
+        position: absolute;
+    top: 80%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+        color: white
+    }
+    .ewelina {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+} 
+} 
+
 @media only screen and (max-width: 1200px) {
     .sticky {
         max-width: 40%
@@ -275,9 +303,7 @@ margin-left: -40px;*/
     #box h1 {
         top: 25%;
     }
-    #box h2 {
-        display: none;
-    }
+     
 
     .timeline {
         top: 200px;
@@ -289,8 +315,20 @@ margin-left: -40px;*/
     #know_us {
         margin-top: 200px;
     }
+   
 
 }
+@media only screen and (max-width: 967px) {
+
+
+    .content {
+        margin-left: -15px;
+    }
+}
+
+
+
+
 
 @media only screen and (max-width: 767px) {
      .sticky {
@@ -306,16 +344,22 @@ margin-left: -40px;*/
         text-align: left;
         left: 0;
         font-size: 12px;
+        padding-left: 15px;
+        padding-right: 15px;
+        margin-top: -30px
     }
 
     #box h1 {
         top: 20%;
         left: 50%;
         transform: translateX(-50%);
+ 
+        font-size: 30px;
     }
+  
 
     .entry .body ul {
-        padding-right: 80px;
+        padding-right: 30px;
         font-size: 13px;
     }
 
@@ -327,43 +371,27 @@ margin-left: -40px;*/
         margin-top: 5px;
     }
     .arrow {
-	display: none
-        
+	display: none        
 }
-}
-
-@media only screen and (max-width: 967px) {
-
-    .ewelina {
-        top: 25%;
+    .foto1 {
+        padding-left: 30px;
+        padding-right: 30px;
     }
-
-    #box h2 {
-        top: 65%;
+    .entry .body p {
+        font-size: 20px;
+        padding-right: 15px;
     }
-
-    .content {
-        margin-left: -15px;
+    .entry .title h3 {
+        font-size: 20px;
+    }
+    .entry .title .december {
+        font-size: 13px;
     }
 }
 
-
-
-
-@media only screen and (min-width: 1440px) {
-    .ewelina {
-        right: -92px;
-    }
-
-    #box h2 {
-        right: -100px;
-    }
-}
 
 @media only screen and (max-width: 576px) {
-    #box h1 {
-        font-size: 40px;
-    }
+    
     .timeline {
 	max-width: 390px;
         left: 0%;

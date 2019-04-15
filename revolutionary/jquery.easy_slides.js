@@ -1,23 +1,31 @@
-﻿ 
+﻿  
+
 (function ($) {
 
     $.fn.EasySlides = function (options) {
+       
+    
+        
         var settings = $.extend({
-            'autoplay': false,
+            'autoplay': true,
             'timeout': 5000,
-            'show': 5,
+            'show': 4,
             'vertical': false,
             'reverse': false,
             'touchevents': true,
             'delayaftershow': 300,
             'stepbystep': true,
             'loop': true,
-            'startslide': 40,
-            'distancetochange': 10,
+            'startslide':  0,
+            'distancetochange': 0,
             'beforeshow': function () {},
-            'aftershow': function () {},
-
+            'aftershow': function () {}
         }, options);
+            
+ 
+                
+                
+                
         return this.each(function () {
             var this_slider = this;
             var EasySlidesTimer;
@@ -306,4 +314,7 @@
             }
         });
     }
-})(jQuery);
+ 
+}
+ 
+ )(jQuery);

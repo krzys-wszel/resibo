@@ -264,7 +264,11 @@ margin-left: -40px;*/
 .h_timeline {
     text-align: -webkit-center;
 }
-
+@media only screen and (min-width: 1200px){
+#know_us {
+	padding-top: 600px;
+    }
+}
 @media only screen and (min-width: 1440px) {
     .ewelina {
         right: -92px;

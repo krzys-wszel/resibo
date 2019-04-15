@@ -23,9 +23,11 @@ margin-left: -40px;*/
 
 .ewelina {
     position: absolute;
-    top: 50%;
-     
+    top: 50%;     
     right: 0px;
+}
+.ewelina_white {
+	display: none;
 }
 
 #box h1 {
@@ -287,7 +289,15 @@ margin-left: -40px;*/
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
+        display: none
 } 
+    .ewelina_white {
+       position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%); 
+        display: block;
+    }
 } 
 
 @media only screen and (max-width: 1200px) {

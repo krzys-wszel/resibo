@@ -350,8 +350,12 @@ margin-left: -40px;*/
 @media only screen and (max-width: 767px) {
      .sticky {
 	max-width: 100%;
-         z-index: 1000
+         z-index: 1000; 
+          top: -115px;
+       
         
+}
+             
 }
 
     .text_box {

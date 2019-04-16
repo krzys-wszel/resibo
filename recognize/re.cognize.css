@@ -21,7 +21,9 @@ body {
     max-width: 1340px;;
      
 }
-
+.content .margin_reach {
+	left: 133px;
+}
 .content h1 {
     position: relative;
     top: 30%;

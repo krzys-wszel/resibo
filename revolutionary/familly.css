@@ -23,37 +23,35 @@ h1 {
     max-width: 1240px;
     max-height: 827px;
     margin: 30px auto;
+    position: relative;
 }
 
 
-.arrow {
-    /* left: -40%; */
-    /* top: 49%; */
-    position: relative;
-    top: 115%;
-    left: -38%;
+.arrow { 
+    position: absolute; 
+  left: 5%;
+    top: 15%;
 }
 
 .p_text {
-    font-family: FuturaPT;
-    font-size: 20px;
-    font-weight: normal;
-    font-style: normal;
-    font-stretch: normal;
-    line-height: 1.65;
-    letter-spacing: 0.4px;
-    text-align: justify;
-    color: #000000;
-    max-width: 906px;
-    margin-top: 100px;
+     max-width: 906px;
+  height: 135px;
+  font-family: CGMed;
+  font-size: 25px;
+  font-weight: 500;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.8;
+  letter-spacing: normal;
+  text-align: center;
+  color: #000000;
+        margin-top: 90px;
+    margin-bottom: 90px;
 }
 
 
 
-#know_us {
-    padding-top: 340px;
-}
-
+ 
 
 #fotos .row {
     justify-content: center;
@@ -198,6 +196,10 @@ h1 {
 
 #slider {
     margin-top: 272px;
+    position: relative;
+    max-width: 1240px;
+    padding-left: 30px;
+    padding-right: 30px;
 }
 
 #slider img {
@@ -217,14 +219,20 @@ h1 {
     text-align: center;
     color: #000000;
     text-transform: none;
-    position: relative;
-    top: 150px;
-    left: -537px;
+    position: absolute;
+    top: -30%!important;
+    left: 5%;
 
 }
-
+#slider .next_slider1 {
+     
+}
 #slider2 {
-    margin-top: 246px;
+   margin-top: 272px;
+    position: relative;
+    max-width: 1240px;
+    padding-left: 30px;
+    padding-right: 30px;
 }
 
 #slider2 img {
@@ -244,14 +252,19 @@ h1 {
     text-align: center;
     color: #000000;
     text-transform: none;
-    position: relative;
-    top: 130px;
-    left: -486px;
-    margin-top: 135px;
+    position: absolute;
+     top: -30%!important;
+    left: 5%;
+     
+     
 }
 
 #slider3 {
-    margin-top: 246px;
+   margin-top: 272px;
+    position: relative;
+    max-width: 1240px;
+    padding-left: 30px;
+    padding-right: 30px;
 }
 
 #slider3 img {
@@ -270,21 +283,33 @@ h1 {
     letter-spacing: 0.7px;
     text-align: center;
     color: #000000;
-    text-transform: none;
-    position: relative;
-    top: 130px;
-    left: -537px;
-    margin-top: 135px;
+    text-transform: none;     
+   position: absolute;
+     top: -30%!important;
+    left: 7%;
+    text-align: left;
 }
 
 #slider4 {
-    margin-top: 246px;
+   margin-top: 272px;
+    position: relative;
+    max-width: 1240px;
+    padding-left: 30px;
+    padding-right: 30px;
 }
-
+#slider5 {
+   margin-top: 272px;
+    position: relative;
+    max-width: 1240px;
+    padding-left: 30px;
+    padding-right: 30px;
+}
 #slider4 img {
     max-width: 270px;
 }
-
+#slider5 img {
+    max-width: 270px;
+}
 .h1_slider4 {
     width: 219px;
     height: 32px;
@@ -299,9 +324,27 @@ h1 {
     color: #000000;
     text-transform: none;
     position: relative;
-    top: 130px;
-    left: -486px;
-    margin-top: 135px;
+    position: absolute;
+     top: -30%!important;
+    left: 5%;
+}
+.h1_slider5 {
+    width: 219px;
+    height: 32px;
+    font-family: FuturaMed;
+    font-size: 25px;
+    font-weight: 500;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: 0.7px;
+    text-align: center;
+    color: #000000;
+    text-transform: none;     
+   position: absolute;
+     top: -30%!important;
+    left: 5%;
+    text-align: left;
 }
 
 /*-------------------*/
@@ -392,8 +435,8 @@ h1 {
  
 .next_button {
     position: absolute;
-    left: 87% !important;
-    top: -42% !important;
+    left: 94% !important;
+    top: -30% !important;
     margin: -15px 0 0 -25px !important;
     /* width: 50px !important;
     height: 50px !important;
@@ -412,13 +455,6 @@ h1 {
     display: none;
 }
 
-.arrow {
-    /* left: -40%; */
-    /* top: 49%; */
-    position: relative;
-    top: 15%;
-    left: -38%;
-}
 
 
 div.slider > div:not(.nav_indicators):not(.next_button):not(.prev_button) {
@@ -429,11 +465,7 @@ div.slider > div:not(.nav_indicators):not(.next_button):not(.prev_button) {
 
 
 }
-
-#know_us {
-    padding-top: 200px;
-}
-
+ 
 .category {
 	margin-top: 100px;
     display: flex;
@@ -472,26 +504,7 @@ div.slider > div:not(.nav_indicators):not(.next_button):not(.prev_button) {
         max-width: 200px;
     }
 
-    .h1_slider2 {
-        left: -13%;
-        top: 175px;
-    }
-
-    .h1_slider {
-        top: 253px;
-        left: -26%;
-    }
-
-    .h1_slider3 {
-        left: -19%;
-        top: 175px;
-    }
-
-    .h1_slider4 {
-        left: -13%;
-        top: 175px;
-    }
-
+ 
     #slider img {
         max-width: 190px;
     }
@@ -507,33 +520,34 @@ div.slider > div:not(.nav_indicators):not(.next_button):not(.prev_button) {
     #slider4 img {
         max-width: 190px;
     }
-}
-
-
-@media only screen and (max-width: 1200px) {
-    .arrow {
-        top: 15%;
-    }
-
     .p_text {
 
         padding-left: 10px;
         padding-right: 10px;
     }
+    #know_us {
+	margin-top: 300px
+}
 }
 
-@media only screen and (max-width: 977px) {
+
+ 
+
+@media only screen and (max-width: 992px) {
     #fotos .col-sm-6 {
         margin: 0px 0px;
     }
-
-    .arrow {
-        top: 94%;
-    }
-
+#slider , #slider2 ,
+    #slider3 , #slider4 ,#slider5 {
+        margin-top: 300px;
+    }    
+ 
     .opis {
         max-width: 180px;
     }
+    #know_us {
+	margin-top: 370px
+}
 }
 
 @media only screen and (max-width: 767px) {
@@ -578,10 +592,11 @@ div.slider > div:not(.nav_indicators):not(.next_button):not(.prev_button) {
     #slider img,
     #slider2 img,
     #slider3 img,
-    #slider4 img{
+    #slider4 img,
+    #slider5 img {
          max-width: 200px;
     }
-#slider .next_button img,
+/*#slider .next_button img,
   #slider2 .next_button img , 
    #slider3 .next_button img, 
    #slider4 .next_button img 
@@ -590,13 +605,21 @@ div.slider > div:not(.nav_indicators):not(.next_button):not(.prev_button) {
     width: 140px;
     left: -69px;
     position: relative;
-}
+}*/
     #slider2 {
-    margin-top: 340px;
+    margin-top: 370px;
 }
-    .h1_slider2 {
-    left: -13%;
-    top: 322px;
-     
+    #slider3 {
+    margin-top: 370px;
 }
+    #slider4 {
+    margin-top: 370px;
+}
+    #slider5 {
+    margin-top: 380px;
+}
+    #know_us {
+	margin-top: 450px;;
+}
+    
 }

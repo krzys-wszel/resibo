@@ -22,7 +22,9 @@ body {
     text-decoration: line-through;
     color: black;
 }
-
+.content .margin_reach {
+	left: 135px;
+}
 .foto2 {
        width: 881px;
   height: 422px;

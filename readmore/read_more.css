@@ -116,6 +116,9 @@ font-family: FuturaMed;
 #know_us .row {
     margin-top: -150px;
 }
+.content .margin {
+	left: 137px;
+}
 @media only screen and (max-width: 986px){
     #know_us {
         margin-top: 100px;

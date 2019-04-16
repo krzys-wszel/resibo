@@ -63,7 +63,7 @@
                     
                         <a href="quiz1.html" class="link1 l"> quiz</a>
                         <a href="top_sellers.html" class="link2 l"> top sellers </a>
-                        <a href="familly.html" class="link3 l">reisbo familly</a>
+                        <a href="familly.html" class="link3 l margin">reisbo familly</a>
                         <a href="../index.html"> <img class="arrow" src="../img/button_arrow.svg"></a></div>
                     
                
@@ -202,14 +202,14 @@
             $('.foto1').hide();
             $('.foto2').show();
             $('.h1').addClass('black');
-
+ $("a").css('color', 'black');
 
         })
         $('.link1').on('mouseleave', function() {
             $('.foto1').show();
             $('.foto2').hide();
             $('.h1').removeClass('black');
-
+$("a").css('color', 'white');
 
         })
             }
@@ -227,13 +227,16 @@
             $('.foto1').hide();
             $('.foto3').show();
             $('.h1').addClass("black");
+            $("a").css('color', 'black');
         })
         $('.link2').on('mouseleave', function() {
             $('.foto1').show();
             $('.foto3').hide();
             $('.h1').removeClass("black");
+            $("a").css('color', 'white');
         })
             }
+            
         }
 
     </script>
@@ -248,11 +251,13 @@
             $('.foto1').hide();
             $('.foto4').show();
             $('.h1').addClass("black");
+             $("a").css('color', 'black');
         })
         $('.link3').on('mouseleave', function() {
             $('.foto1').show();
             $('.foto4').hide();
             $('.h1').removeClass("black");
+            $("a").css('color', 'white');
 
         })
             }

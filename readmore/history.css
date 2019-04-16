@@ -1,5 +1,5 @@
 .content {
-    padding-top: 110px;
+    padding-top: 105px;
     margin-left: 50px;
     max-width: 770px;
     max-height: 790px;
@@ -9,7 +9,7 @@
     position: fixed;
     /*margin-top: -100px;
 margin-left: -40px;*/
-    max-width: 45.8%
+    max-width: 46%
 }
 
  
@@ -352,11 +352,10 @@ margin-left: -40px;*/
 	max-width: 100%;
          z-index: 1000; 
           top: -115px;
-       
         
 }
              
-}
+
 
     .text_box {
         text-align: -webkit-center;

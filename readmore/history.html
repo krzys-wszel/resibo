@@ -374,8 +374,14 @@
     </script>
 
     <script>
+        var x = window.matchMedia("(min-width: 768px)")
+        myFunction(x)
+        x.addListener(myFunction)
+
+        function myFunction(x) {
+             if (x.matches) { 
         $(window).scroll(function() {
-            if ($(window).scrollTop() >=  90) {
+            if ($(window).scrollTop() >=   5) {
                 $('.content').addClass('sticky');
              
             } else {
@@ -386,6 +392,29 @@
             }
 
         });
+        }  
+        }
+    </script>
+     <script>
+        var x = window.matchMedia("(max-width: 767px)")
+        myFunction(x)
+        x.addListener(myFunction)
+
+        function myFunction(x) {
+             if (x.matches) { 
+        $(window).scroll(function() {
+            if ($(window).scrollTop() >=   90) {
+                $('.content').addClass('sticky');
+             
+            } else {
+                $('.content').removeClass('sticky');
+            }
+            if ($(window).scrollTop() >= 2700) {
+                $('.content').removeClass('sticky');
+            }
+        });
+        } 
+        }
     </script>
 </body>
 

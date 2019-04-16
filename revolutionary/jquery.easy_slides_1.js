@@ -1,31 +1,42 @@
-﻿  
+﻿/*
+EasySlides - слидер
+Autor 2017 Shabanov Ivan (Шабанов Иван)
+Usage:
 
+   $('.slider').EasySlides({
+      'autoplay': true, 
+      'timeout': 3000,
+      'show': 5, //Сколь-ко позывать слайдов (по умолчанию 5: 1-активный, 2-предыдущих и 2-следующих)
+      'vertical': false,  //Если True то слайдер вертикальный, слайды листаются движением вверх/вниз
+      'reverse': false, //Перевернутый слайдер
+      'touchevents': true, //Вкючено ли события на прикосновения к сладеру (листания и т.п) 
+      'delayaftershow': 300, //Задержка после смены слайдера, в это время слайдер нельзя листать
+      'stepbystep': true, //При клике на далекий слайд перейти к нему последовательно, а не сразу
+      'startslide': 0,  //Стартовый слайд 
+      'beforeshow': function () {},
+      'aftershow': function () {},      
+      });
+
+*/
 (function ($) {
 
     $.fn.EasySlides = function (options) {
-       
-    
-        
         var settings = $.extend({
-           'autoplay': true,
+            'autoplay': false,
             'timeout': 3000,
             'show': 4,
             'vertical': false,
             'reverse': false,
-            'touchevents': true,
+            'touchevents': false,
             'delayaftershow': 300,
-            'stepbystep': true,
+            'stepbystep': false,
             'loop': true,
             'startslide': 0,
             'distancetochange': 10,
             'beforeshow': function () {},
-            'aftershow': function () {}
+            'aftershow': function () {},
+
         }, options);
-            
- 
-                
-                
-                
         return this.each(function () {
             var this_slider = this;
             var EasySlidesTimer;
@@ -92,7 +103,7 @@
                     if (EasySlidesCanChange) {
                         EasySlidesCanChange = false;
                         setTimeout(function () {
-                            EasySlidesCanChange = false;
+                            EasySlidesCanChange = true;
                         }, settings['delayaftershow']);
                         clearTimeout(EasySlidesTimer);
                         if (typeof settings['beforeshow'] == 'function') {
@@ -233,7 +244,7 @@
                     cur_slide--;
                     EasySlidesNext(cur_slide);
                 });
-             /*   if (settings['touchevents']) {
+              /*  if (settings['touchevents']) {
                     var EasySliderMoved = function (xcur, ycur) {
                         var offset = $(slides).find('.active').offset();
                         var left = 0;
@@ -278,9 +289,9 @@
                             }
                             EasySlidesNext(cur_slide);
                         }
-                    }
-                    /*События*/
-                /*    $(this_slider).bind('mousemove', function (e) {
+                    }*/
+                    /*События*/  /*
+                    $(this_slider).bind('mousemove', function (e) {
                         e.preventDefault();
                         if (e.buttons > 0) {
                             EasySliderMoved(e.pageX, e.pageY);
@@ -308,13 +319,10 @@
                     });
                     $(this_slider).bind('touchend', function (e) {
                         $(this_slider).removeData('posstart');
-                    });  */
+                    });
 
-             /*   }*/
+                }*/
             }
         });
     }
- 
-}
- 
- )(jQuery);
+})(jQuery);

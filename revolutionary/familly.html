@@ -21,7 +21,7 @@
 
 <body>
 
-    <a href="#" class="menu-icon sticky">
+    <a href="#" class="menu-icon ">
         <img class="burger" src="../img/burger.svg">
         <img class="burger_white" src="../img/burger_white.svg">
     </a>
@@ -62,37 +62,57 @@
                     </div>
                 </div>
             </div>
+            
         </section>
 
 
-        <section class="category">
-            <div class="container">
-                <h1> Category</h1>
-                   <div class="clen">
-                    <a href="#slider"> <button class="btn clean">CLEANISING</button> </a>
+
+ <section id="slider_category">
+       <h2>Category</h2>
+           <div class="slides">
+            <input type="radio" name="slider" title="slide1" checked="checked" class="slider__nav"/>
+             
+            <input type="radio" name="slider" title="slide2" class="slider__nav s2" />
+            <input type="radio" name="slider" title="slide3" class="slider__nav s3" />
+            <input type="radio" name="slider" title="slide4" class="slider__nav s4" />
+            <input type="radio" name="slider" title="slide5" class="slider__nav" />
+            <div class="slider__inner">
+                <div class="slider__contents">
+
+                    <p class="slider__txt">    <button  class="btn clean act" href="#slider2">
+                      <p class="button_p">Cleanising</p> </button> </p>
                 </div>
-                <div class="clen">
-                    <a href="#slider2" class="smooth-scroll"> <button class="btn skincare">EVERTDAY SKINCARE</button></a>
+                <div class="slider__contents">
+
+                   <a href="#slider2">  <p class="slider__txt"><button class="btn skincare">
+                       <p class="button_p">    Skincare </p></button></p></a>
                 </div>
-                <div class="clen">
-                    <a href="#slider3"> <button class="btn body">BODY CARE</button></a>
+                <div class="slider__contents">
+
+                   <a href="slider3"> <p class="slider__txt"><button class="btn body">
+                       <p class="button_p">     Body care </p></button></p> </a>
                 </div>
-                <div class="clen">
-                    <a href="#s_4"> <button class="btn special">SPECIAL TREATMENTS</button></a>
+                <div class="slider__contents">
+
+                    <p class="slider__txt"><button class="btn special">
+                         <p class="button_p">    Special treatments </p></button></p>
                 </div>
-                 <div class="clen">
-                    <a href="#s_5"> <button class="btn special">SERUMS</button></a>
+
+                <div class="slider__contents">
+
+                    <p class="slider__txt"><button class="btn serum">
+                          <p class="button_p">   Serums </p></button></p>
                 </div>
+
             </div>
-        </section>
+        </div>
+</section>
 
-
-
-
+ 
 
 
         <section id="slider">
-            <h1 class="h1_slider">Cleansing</h1>
+            <h1 class="h1_slider" id="slider1">Cleansing</h1>
             <div class="slider slider_four_in_line">
 
                 <div>
@@ -153,7 +173,7 @@
 
 
         <section id="slider2">
-            <h1 class="h1_slider2">Everyday skincare</h1>
+            <h1 class="h1_slider2" id="slider2">Everyday skincare</h1>
             <div class="slider slider_four_in_line">
                 <div>
                     <img src="../img/resibo_krem%20pod%20oczy_tuba.png">
@@ -215,7 +235,7 @@
 
 
         <section id="slider3">
-            <h1 class="h1_slider3">Body care</h1>
+            <h1 class="h1_slider3" id="slider3">Body care</h1>
             <div class="slider slider_four_in_line">
                 <div>
                     <img src="../img/resibo_naturalny_krem%20do%20r%C4%85k.png">
@@ -276,7 +296,7 @@
 
 
         <section id="slider4">
-            <h1 class="h1_slider4" id="s_4">Special treatments</h1>
+            <h1 class="h1_slider4" id="slider4">Special treatments</h1>
             <div class="slider slider_four_in_line">
                 <div>
                     <img src="../img/Maska-przod-wiz1.png">
@@ -324,7 +344,7 @@
         </section>
 
         <section id="slider5">
-            <h1 class="h1_slider5" id="s_5">Serums</h1>
+            <h1 class="h1_slider5" id="slider5">Serums</h1>
             <div class="slider slider_four_in_line">
                 <div>
                     <img src="../img/5904730627597_1.png">
@@ -445,6 +465,7 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js" integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js" integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k" crossorigin="anonymous"></script>
     <script src="jquery.easy_slides.js"></script>
+     
 
     <script>
         $(function() {
@@ -468,6 +489,91 @@
         $('.slider_four_in_line').EasySlides()
 
     </script>
+
+    <script>
+        $(function() {
+            var flag = 0;
+            $('.serum').on('click', function(e) {
+                e.preventDefault();
+                if (flag == 0) {
+                    $('.serum').addClass('act');
+                    $('.clean').removeClass('act');
+                    $('.skincare').removeClass('act');
+                    $('.body').removeClass('act');
+                    $('.special').removeClass('act');
+                }
+            });
+        });
+
+    </script>
+    <script>
+        $(function() {
+            var flag = 0;
+            $('.body').on('click', function(e) {
+                e.preventDefault();
+                if (flag == 0) {
+                    $('.body').addClass('act');
+                    $('.clean').removeClass('act');
+                    $('.skincare').removeClass('act');
+                    $('.serum').removeClass('act');
+                    $('.special').removeClass('act');
+                    
+                }
+            });
+        });
+
+    </script>
+    <script>
+        $(function() {
+            var flag = 0;
+            $('.special').on('click', function(e) {
+                e.preventDefault();
+                if (flag == 0) {
+                    $('.special').addClass('act');
+                    $('.clean').removeClass('act');
+                    $('.skincare').removeClass('act');
+                    $('.serum').removeClass('act');
+                    $('.body').removeClass('act');
+                }
+            });
+        });
+
+    </script>
+    <script>
+        $(function() {
+            var flag = 0;
+            $('.clean').on('click', function(e) {
+                e.preventDefault();
+                if (flag == 0) {
+                    $('.clean').addClass('act');
+                    $('.special').removeClass('act');
+                    $('.skincare').removeClass('act');
+                    $('.serum').removeClass('act');
+                    $('.body').removeClass('act');
+                }
+            });
+        });
+
+    </script>
+    <script>
+        $(function() {
+            var flag = 0;
+            $('.skincare').on('click', function(e) {
+                e.preventDefault();
+                if (flag == 0) {
+                    $('.skincare').addClass('act');
+                    $('.special').removeClass('act');
+                    $('.clean').removeClass('act');
+                    $('.serum').removeClass('act');
+                    $('.body').removeClass('act');
+                }
+            });
+        });
+
+    </script>
+    
+   
+
 </body>
 
 </html>

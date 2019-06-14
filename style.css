@@ -424,10 +424,10 @@ IMG 3 , IMG 4
       transition: ease all 2s;
  }
 
- .l2::after,
+ /*.l2::after,
  .l2::before {
      content: '\00a0\00a0';
- }
+ }*/
 
  .md_1,
  .md_2 {
@@ -441,7 +441,11 @@ IMG 3 , IMG 4
  /* ------------------------
 KNOW US 
 --------------------------*/
-
+.input {
+    width: 350px;
+    height: 40px;
+    border: 1px solid;
+}
  #know_us {
      text-align: -webkit-center;
      padding-top: 150px;
@@ -550,10 +554,10 @@ KNOW US
      color: #000000;
  }
 
- #footer a {
+ /*#footer a {
      text-decoration: none;
      color: #000000;
- }
+ }*/
 
 
  .line {
@@ -583,8 +587,8 @@ KNOW US
      color: #000000;
  }
 
- /*#footer a:hover {
-    text-decoration: line-through;*/
+ #footer a:hover {
+    text-decoration: line-through;
  }
 
  #footer .footer_icon {
@@ -959,18 +963,20 @@ KNOW US
      .menu li {
          margin-left: 0px;
      }
-
-
+     .input {
+         width: 315px;
+         height: 35px;
+     }
+.go {     
+position: absolute;
+    width: 44px;
+    margin-left: -54px;
+     }
 
  }
 
  @media only screen and (max-width: 576px) {
-     .go {
-         margin-left: -45px;
-         width: 40px;
-         height: 38px;
-
-     }
+     
 
      #know_us .form-control {
          max-width: 270px;
